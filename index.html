@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rnexflix.top - Live Player</title>
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #0b0b0b;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .player-container {
+            position: relative;
+            width: 100%;
+            max-width: 850px;
+            aspect-ratio: 16 / 9;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .video-js {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        /* 50% Opacity ওয়াটারমার্ক */
+        .watermark {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: rgba(255, 255, 255, 0.5); /* 50% অপাসিটি */
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            z-index: 10;
+            pointer-events: none; /* ভিডিওর ওপর ক্লিক করা আটকাবে না */
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+        }
+
+        /* ডানপাশের সার্ভার বাটন লিস্ট */
+        .server-sidebar {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        .server-btn {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .server-btn.active, .server-btn:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        /* ম্যানেজমেন্ট প্যানেল (লিঙ্ক অ্যাড/রিমুভ) */
+        .admin-panel {
+            width: 100%;
+            max-width: 850px;
+            margin-top: 30px;
+            background: #161616;
+            padding: 20px;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        .admin-panel h3 { margin-top: 0; color: #e50914; }
+
+        .form-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .form-group input {
+            flex: 1;
+            padding: 10px;
+            background: #222;
+            border: 1px solid #444;
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        .add-btn {
+            background: #e50914;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .stream-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .stream-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #222;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+        }
+
+        .delete-btn {
+            background: #b71c1c;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="player-container">
+    <div class="watermark">rnexflix.top</div>
+    
+    <video id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"></video>
+
+    <div class="server-sidebar" id="serverSidebar"></div>
+</div>
+
+<div class="admin-panel">
+    <h3>Stream Link Management</h3>
+    <div class="form-group">
+        <input type="text" id="serverName" placeholder="Server Name (e.g., Server 1)">
+        <input type="text" id="serverUrl" placeholder="Paste .m3u8 Stream Link URL">
+        <button class="add-btn" onclick="addStream()">Add Stream</button>
+    </div>
+    
+    <ul class="stream-list" id="streamList"></ul>
+</div>
+
+<script src="https://vjs.zencdn.net/8.10.0/video.js"></script>
+
+<script>
+    // আপনার ক্লাউডফ্লেয়ার ওয়ার্কার লিঙ্কটি এখানে দিন (শেষে স্ল্যাশ দিবেন না)
+    const WORKER_PROXY = "https://fifa-proxy.rnexflix22.workers.dev/";
+
+    // ডিফল্ট কিছু লিঙ্ক (যদি লোকাল স্টোরেজ খালি থাকে)
+    const defaultStreams = [
+        { name: "Server 1", url: "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/0/master_2000.m3u8?hdntl=Expires=1781895849~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ--v-mC3OIajoRHB4MQVIQvaQQQf7PP_snAjMPl_hA5GtHraHLdf7Ce9DmVoSbHpE0UkYXYNKtPWlmG1Xnxj40E" }
+    ];
+
+    // LocalStorage থেকে লিঙ্ক লোড করা
+    let streams = JSON.parse(localStorage.getItem('rnexflix_streams')) || defaultStreams;
+
+    // প্লেয়ার ইনিশিয়ালাইজ
+    var player = videojs('my-player', { autoplay: true, muted: false, fluid: true });
+
+    // UI রেন্ডার করার ফাংশন
+    function renderUI() {
+        const sidebar = document.getElementById('serverSidebar');
+        const list = document.getElementById('streamList');
+        
+        sidebar.innerHTML = '';
+        list.innerHTML = '';
+
+        streams.forEach((stream, index) => {
+            // ১. প্লেয়ারের ওপরের বাটন তৈরি
+            const btn = document.createElement('button');
+            btn.className = `server-btn ${index === 0 ? 'active' : ''}`;
+            btn.innerText = stream.name;
+            btn.onclick = () => playStream(stream.url, btn);
+            sidebar.appendChild(btn);
+
+            // ২. নিচের ম্যানেজমেন্ট লিস্ট তৈরি
+            const li = document.createElement('li');
+            li.className = 'stream-item';
+            li.innerHTML = `
+                <span><strong>${stream.name}:</strong> ${stream.url.substring(0, 50)}...</span>
+                <button class="delete-btn" onclick="deleteStream(${index})">Remove</button>
+            `;
+            list.appendChild(li);
+        });
+
+        // প্রথম লিঙ্কটি অটো-প্লে করা
+        if(streams.length > 0 && !player.src()) {
+            playStream(streams[0].url, sidebar.firstChild);
+        }
+    }
+
+    // স্ট্রিম প্লে করার ফাংশন (প্রক্সি হয়ে যাবে)
+    function playStream(url, element) {
+        // ক্লাউডফ্লেয়ার প্রক্সি লিঙ্ক তৈরি করা
+        const proxyUrl = `${WORKER_PROXY}/?url=${encodeURIComponent(url)}`;
+        
+        player.src({ src: proxyUrl, type: 'application/x-mpegURL' });
+        player.play();
+
+        // একটিভ ক্লাস পরিবর্তন
+        document.querySelectorAll('.server-btn').forEach(btn => btn.classList.remove('active'));
+        if(element) element.classList.add('active');
+    }
+
+    // নতুন স্ট্রিম যোগ করার ফাংশন
+    function addStream() {
+        const name = document.getElementById('serverName').value.trim();
+        const url = document.getElementById('serverUrl').value.trim();
+
+        if(!name || !url) return alert("Please fill up both fields!");
+
+        streams.push({ name, url });
+        localStorage.setItem('rnexflix_streams', JSON.stringify(streams));
+        
+        document.getElementById('serverName').value = '';
+        document.getElementById('serverUrl').value = '';
+        
+        renderUI();
+    }
+
+    // স্ট্রিম রিমুভ করার ফাংশন
+    function deleteStream(index) {
+        if(confirm("Are you sure you want to remove this stream?")) {
+            streams.splice(index, 1);
+            localStorage.setItem('rnexflix_streams', JSON.stringify(streams));
+            // প্লেয়ার সোর্স ক্লিয়ার করা যেন ফ্রেশ রেন্ডার হয়
+            player.src(''); 
+            renderUI();
+        }
+    }
+
+    // প্রথমবার পেজ লোডে রান হবে
+    renderUI();
+</script>
+
+</body>
+</html>
