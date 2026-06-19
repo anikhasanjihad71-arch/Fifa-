@@ -4,24 +4,29 @@
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
-    <script defer="" src="/_vercel/insights/script.js"></script>
+    <script defer="" src="/_vercel/insights/script.js">
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="AHR Sports" />
-    <title>AHR Sports | .M3U Player &amp; IPTV Player for Live Channels</title>
+    <title>
+      AHR Sports | .M3U Player &amp; IPTV Player for Live Channels
+    </title>
     <meta name="description" content="Watch your favorite live channels with AHR Sports, a fast and reliable web-based .M3U Player and IPTV Player. Stream sports, news, and entertainment seamlessly." />
     <meta name="keywords" content="AHR Sports, AHR, .M3U Player, IPTV Player, Live Channel, Web IPTV, Live TV Streaming" />
     <meta name="author" content="AHR" />
-    <link rel="icon" type="image/png" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" />
-    <link rel="apple-touch-icon" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" />
-    <link rel="preload" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" as="image" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" />
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" />
+    <link rel="preload" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" as="image" />
+    <script src="https://cdn.tailwindcss.com">
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;family=DM+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest">
+    </script>
     <style>
   :root {
   --bg-deep:    #080B14;
@@ -63,7 +68,10 @@ body::before { content: ''; position: fixed; inset: 0; background-image: url("da
 
 header { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); gap: 16px; }
 .logo-wrap { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
-.logo-wrap img { width: 48px; height: 48px; object-fit: contain; filter: drop-shadow(0 0 12px var(--accent-glow)); } /* লোগো বড় করা হয়েছে */
+.logo-wrap img { width: 32px; height: 32px; object-fit: contain; filter: drop-shadow(0 0 12px var(--accent-glow)); }
+.logo-text { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.4rem; letter-spacing: -0.02em; }
+.logo-text .vibe { color: #E2E8F0; }
+.logo-text .cast { color: var(--accent); }
 
 .header-status { display: flex; align-items: center; gap: 12px; flex: 1; justify-content: flex-end; min-width: 0; }
 .live-indicator { display: flex; align-items: center; gap: 8px; background: var(--glass); border: 1px solid rgba(255,255,255,0.2); color: var(--text-dim); font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 0.8rem; padding: 4px 12px; border-radius: 999px; max-width: 100%; transition: all 0.3s ease; min-width: 0; }
@@ -174,6 +182,7 @@ header { display: flex; align-items: center; justify-content: space-between; pad
   }
 }
 
+/* Custom YouTube-Style Auto Search Toggle */
 .auto-search-wrap { display: flex; align-items: center; gap: 6px; margin-right: 4px; }
 .auto-search-label { font-size: 0.65rem; font-weight: 700; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; transition: color 0.2s; }
 .auto-search-toggle { width: 38px; height: 22px; border-radius: 11px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15); position: relative; cursor: pointer; transition: all 0.3s ease; padding: 0 2px; display: flex; align-items: center; flex-shrink: 0; }
@@ -294,77 +303,86 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
 .footer-left img { height: 18px; opacity: 0.5; filter: grayscale(1); }
 .footer-dev { font-size: 0.75rem; color: var(--text-dim); }
 .footer-dev span { color: var(--accent); font-weight: 500; }
-        @media (max-width: 640px) {
-    #player-controls { padding: 20px 12px 12px !important; gap: 8px; }
-    .control-btn { width: 34px; height: 34px; flex: 0 0 34px; font-size: 0.85rem; }
-    .quality-btn { padding: 4px 10px; font-size: 0.7rem; }
-    
-    header { padding: 8px 16px !important; gap: 8px; }
-    .logo-text { font-size: 1.35rem; }
-    .logo-wrap img { width: 32px; height: 32px; }
-    .live-indicator { font-size: 0.75rem; padding: 5px 12px; }
+   @media (max-width: 640px) {
+      #player-controls { padding: 20px 12px 12px !important; gap: 8px; }
+      .control-btn { width: 34px; height: 34px; flex: 0 0 34px; font-size: 0.85rem; }
+      .quality-btn { padding: 4px 10px; font-size: 0.7rem; }
+      
+      header { padding: 8px 16px !important; gap: 8px; }
+      .logo-text { font-size: 1.35rem; }
+      .logo-wrap img { width: 32px; height: 32px; }
+      .live-indicator { font-size: 0.75rem; padding: 5px 12px; }
 
-    .channel-btn { min-height: 80px; padding: 10px 8px; } 
-    .channel-btn .default-ch-icon { height: 28px; font-size: 1.6rem; } 
-    .channel-btn img { height: 28px; max-width: 80%; object-fit: contain; } 
-    .channel-btn .ch-name { font-size: 0.75rem; padding: 0 4px; } 
-    
-    .player-section { gap: 0; }
-    body:not(.focus-mode) #source-switcher-wrap { 
-      padding: 0 0 0 16px; margin: 0; width: 100%; height: 34px; min-height: 34px; 
-      border-radius: 0; border-left: none; border-right: none; border-top: none;
-      background-color: var(--bg-deep); 
-    }
-    .source-pill { height: 26px; font-size: 0.75rem; }
-  }
-
-  @media (max-width: 1024px) {
-    .desktop-only { display: none !important; }
-    
-    html, body { height: auto !important; overflow-y: visible !important; overscroll-behavior: auto; }
-    #app { display: block; padding: 0; margin: 0; height: auto; overflow: visible; }
-    
-    header { position: sticky; top: 0; z-index: 105; height: 50px; padding: 0 16px; background: var(--bg-deep); border-bottom: none; flex-shrink: 0; box-sizing: border-box; }
-    .player-section { order: 1; position: sticky; top: 50px; z-index: 104; padding: 0; background: var(--bg-deep); width: 100%; border-bottom: none; flex-shrink: 0; }
-    
-    main { display: block; padding: 0; width: 100%; height: auto; overflow: visible; gap: 0; }
-    #tv-player { border-radius: 0; border: none; box-shadow: none; margin: 0; width: 100%; aspect-ratio: 16/9; flex: none; }
-
-    .sidebar { order: 2; display: block; background: transparent; border: none; border-radius: 0; padding: 0; box-shadow: none; overflow: visible; min-height: 0; gap: 0; flex: 1; }
-    
-    .sidebar-controls { flex-shrink: 0; position: static; background: var(--bg-deep); padding: 8px 16px; margin: 0; box-sizing: border-box; border-bottom: none; display: flex; flex-wrap: nowrap; gap: 8px; width: 100%; z-index: 103; }
-    .event-filter-wrap { flex-shrink: 0; padding: 4px 16px 8px; margin: 0; box-sizing: border-box; width: 100%; background: transparent; z-index: 102; } 
-    
-    @media (min-width: 641px) {
-      body:not(.focus-mode) #source-switcher-wrap { margin: 8px 16px 12px 16px; width: auto; box-sizing: border-box; flex-shrink: 0; }
+      .channel-btn { min-height: 80px; padding: 10px 8px; } 
+      .channel-btn .default-ch-icon { height: 28px; font-size: 1.6rem; } 
+      .channel-btn img { height: 28px; max-width: 80%; object-fit: contain; } 
+      .channel-btn .ch-name { font-size: 0.75rem; padding: 0 4px; } 
+      
+      .player-section { gap: 0; }
+      body:not(.focus-mode) #source-switcher-wrap { 
+        padding: 0 0 0 16px; margin: 0; width: 100%; height: 34px; min-height: 34px; 
+        border-radius: 0; border-left: none; border-right: none; border-top: none;
+        background-color: var(--bg-deep); 
+      }
+      .source-pill { height: 26px; font-size: 0.75rem; }
     }
 
-    select#server-select { max-width: 140px; flex-shrink: 0; }
-    .back-btn { width: auto; padding: 0 12px; flex-shrink: 0; }
-    .search-wrap, .announcement-wrap { flex: 1; min-width: 0; width: auto; }
+    @media (max-width: 1024px) {
+      .desktop-only { display: none !important; }
+      
+      html, body { height: auto !important; overflow-y: visible !important; overscroll-behavior: auto; }
+      #app { display: block; padding: 0; margin: 0; height: auto; overflow: visible; }
+      
+      header { position: sticky; top: 0; z-index: 105; height: 50px; padding: 0 16px; background: var(--bg-deep); border-bottom: none; flex-shrink: 0; box-sizing: border-box; }
+      .player-section { order: 1; position: sticky; top: 50px; z-index: 104; padding: 0; background: var(--bg-deep); width: 100%; border-bottom: none; flex-shrink: 0; }
+      
+      main { display: block; padding: 0; width: 100%; height: auto; overflow: visible; gap: 0; }
+      #tv-player { border-radius: 0; border: none; box-shadow: none; margin: 0; width: 100%; aspect-ratio: 16/9; flex: none; }
 
-    .scroll-wrapper { width: 100%; overflow: visible; display: block; height: auto; }
-    #channel-grid { padding: 6px 16px 20px; width: 100%; display: grid; box-sizing: border-box; }
-    footer { padding: 24px 16px 32px; background: var(--bg-deep); border-top: 1px solid rgba(255,255,255,0.05); width: 100%; justify-content: center; flex-shrink: 0; z-index: 100; }
-    
-    .live-sync-btn { padding: 4px 6px; font-size: 0.75rem; margin-left: 0; gap: 4px; }
-    .live-sync-dot { width: 5px; height: 5px; }
-  }
+      .sidebar { order: 2; display: block; background: transparent; border: none; border-radius: 0; padding: 0; box-shadow: none; overflow: visible; min-height: 0; gap: 0; flex: 1; }
+      
+      .sidebar-controls { flex-shrink: 0; position: static; background: var(--bg-deep); padding: 8px 16px; margin: 0; box-sizing: border-box; border-bottom: none; display: flex; flex-wrap: nowrap; gap: 8px; width: 100%; z-index: 103; }
+      .event-filter-wrap { flex-shrink: 0; padding: 4px 16px 8px; margin: 0; box-sizing: border-box; width: 100%; background: transparent; z-index: 102; } 
+      
+      @media (min-width: 641px) {
+        body:not(.focus-mode) #source-switcher-wrap { margin: 8px 16px 12px 16px; width: auto; box-sizing: border-box; flex-shrink: 0; }
+      }
 
-  body.focus-mode { overflow: hidden !important; background: #000 !important; position: fixed; width: 100vw; height: 100dvh; }
-  body.focus-mode .hide-on-focus { display: none !important; }
-  body.focus-mode #tv-player { position: fixed; top: 0; left: 0; width: 100vw; height: 100dvh; aspect-ratio: auto !important; z-index: 99999; border-radius: 0; box-shadow: none; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); background: #000; }
-  body.focus-mode main { padding: 0; display: block; }
-  </style>
-</head>
+      select#server-select { max-width: 140px; flex-shrink: 0; }
+      .back-btn { width: auto; padding: 0 12px; flex-shrink: 0; }
+      .search-wrap, .announcement-wrap { flex: 1; min-width: 0; width: auto; }
+
+      .scroll-wrapper { width: 100%; overflow: visible; display: block; height: auto; }
+      #channel-grid { padding: 6px 16px 20px; width: 100%; display: grid; box-sizing: border-box; }
+      footer { padding: 24px 16px 32px; background: var(--bg-deep); border-top: 1px solid rgba(255,255,255,0.05); width: 100%; justify-content: center; flex-shrink: 0; z-index: 100; }
+      
+      .live-sync-btn { padding: 4px 6px; font-size: 0.75rem; margin-left: 0; gap: 4px; }
+      .live-sync-dot { width: 5px; height: 5px; }
+    }
+
+    body.focus-mode { overflow: hidden !important; background: #000 !important; position: fixed; width: 100vw; height: 100dvh; }
+    body.focus-mode .hide-on-focus { display: none !important; }
+    body.focus-mode #tv-player { position: fixed; top: 0; left: 0; width: 100vw; height: 100dvh; aspect-ratio: auto !important; z-index: 99999; border-radius: 0; box-shadow: none; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); background: #000; }
+    body.focus-mode main { padding: 0; display: block; }
+    </style>
+  </head>
   <body>
+    <div id="global-popup">
+      <div class="popup-box">
+        <button class="popup-close" id="popup-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="popup-content-area" id="popup-content-area">
+        </div>
+      </div>
+    </div>
     <div id="splash-screen">
       <div class="splash-loader" id="splash-loader">
         <div class="splash-progress">
         </div>
       </div>
       <div class="splash-content" id="splash-content">
-        <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="AHR Sports Logo - IPTV Player" />
+        <img src="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" onerror="this.src='logo.png'; this.onerror=null;" alt="AHR Sports Logo - IPTV Player" />
       </div>
     </div>
     <div class="ambient ambient-1">
@@ -373,7 +391,15 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
     </div>
     <div id="app">
       <header class="hide-on-focus">
-        <a class="logo-wrap" href="#">        <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="AHR Sports Logo" />
+        <a class="logo-wrap" href="#">        <img src="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" onerror="this.src='logo.png'; this.onerror=null;" alt="AHR Sports Logo" />
+        <div>
+          <h1 class="logo-text">
+            <span class="vibe">            AHR
+</span>
+            <span class="cast">            Sports
+</span>
+          </h1>
+        </div>
 </a>
         <div class="header-status">
           <div class="live-indicator" id="live-indicator">
@@ -398,41 +424,41 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
             </div>
           </div>
           <div id="tv-player">
-  <div id="auto-search-top-slot">
-  </div>
-  <video id="tv-player-video" playsinline="">
-  </video>
-  <div class="player-loading hidden" id="player-loading">
-    <div id="loading-skeleton">
-    </div>
-    <img id="loading-logo" src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="Loading..." />
-    <div id="loading-skip-msg">
-    </div>
-  </div>
-  <div class="player-idle" id="player-idle">
-    <div class="idle-icon">
-      <i class="fas fa-tv"></i>
-    </div>
-    <p class="idle-text">
-      Select a channel to start watching
-    </p>
-    <p class="idle-caution">
-      <i class="fas fa-exclamation-triangle"></i>
-      Some channels may not play or try switching
-    </p>
-  </div>
-  <div id="player-controls">
-    <div class="ctrl-group">
-      <button id="prev-btn" class="control-btn" title="Previous Channel">
-        <i class="fas fa-step-backward"></i>
-      </button>
-      <button class="control-btn accent-btn play-pause-toggle-btn">
-        <i class="fas fa-play"></i>
-      </button>
-      <button id="next-btn" class="control-btn" title="Next Channel">
-        <i class="fas fa-step-forward"></i>
-      </button>
-                      <div class="vol-wrap desktop-only">
+            <div id="auto-search-top-slot">
+            </div>
+            <video id="tv-player-video" playsinline="">
+            </video>
+            <div class="player-loading hidden" id="player-loading">
+              <div id="loading-skeleton">
+              </div>
+              <img id="loading-logo" src="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" onerror="this.src='logo.png'; this.onerror=null;" alt="Loading..." />
+              <div id="loading-skip-msg">
+              </div>
+            </div>
+            <div class="player-idle" id="player-idle">
+              <div class="idle-icon">
+                <i class="fas fa-tv"></i>
+              </div>
+              <p class="idle-text">
+                Select a channel to start watching
+              </p>
+              <p class="idle-caution">
+                <i class="fas fa-exclamation-triangle"></i>
+                Some channels may not play or try switching
+              </p>
+            </div>
+            <div id="player-controls">
+              <div class="ctrl-group">
+                <button id="prev-btn" class="control-btn" title="Previous Channel">
+                  <i class="fas fa-step-backward"></i>
+                </button>
+                <button class="control-btn accent-btn play-pause-toggle-btn">
+                  <i class="fas fa-play"></i>
+                </button>
+                <button id="next-btn" class="control-btn" title="Next Channel">
+                  <i class="fas fa-step-forward"></i>
+                </button>
+                <div class="vol-wrap desktop-only">
                   <button class="control-btn mute-toggle-btn">
                     <i class="fas fa-volume-up"></i>
                   </button>
@@ -487,6 +513,15 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
               <i class="fas fa-search"></i>
               <input type="text" id="search-input" placeholder="Search channels..." />
             </div>
+            <div class="announcement-wrap hide-el" id="announcement-container" title="Ongoing Event Details">
+              <i class="fas fa-bolt"></i>
+              <div class="marquee-box">
+                <div class="marquee-content">
+                  <span id="announcement-text">                  Loading events...
+</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="event-filter-wrap hide-el" id="event-filter-container">
             <button class="filter-btn active" data-filter="upcoming">
@@ -510,7 +545,7 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
       </main>
       <footer class="hide-on-focus">
         <div class="footer-left">
-          <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="logo" />
+          <img src="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" onerror="this.src='logo.png'; this.onerror=null;" alt="logo" />
           <span>          AHR Sports © 2026
 </span>
         </div>
@@ -617,11 +652,12 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
     const bottomSwitcher = document.getElementById('bottom-source-switcher');
     const btnRefreshStream = document.getElementById('btn-refresh-stream');
     const autoSearchBtn   = document.getElementById('auto-search-btn');
-    
-    const serverSelect  = document.getElementById('server-select');
+      const serverSelect  = document.getElementById('server-select');
     const backToMainBtn = document.getElementById('back-to-main-btn');
     const searchContainer = document.getElementById('search-container');
     const searchInput   = document.getElementById('search-input');
+    const announcementContainer = document.getElementById('announcement-container');
+    const announcementText = document.getElementById('announcement-text');
     const channelGrid   = document.getElementById('channel-grid');
     const splashScreen  = document.getElementById('splash-screen');
     const splashLoader  = document.getElementById('splash-loader');
@@ -664,7 +700,8 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
     let manualRetryCount = 0;
     const WATCHDOG_LIMIT_MS = 20000;
     const SIX_HOURS_MS = 6 * 60 * 60 * 1000;
-      function adjustFooterLayout() {
+
+    function adjustFooterLayout() {
       if (window.innerWidth <= 1024) {
         if (footerEl.parentNode !== gridScrollWrapper) {
           gridScrollWrapper.appendChild(footerEl);
@@ -723,10 +760,45 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
       } catch (err) { return defaultData; }
     }
 
+    async function checkAndShowPopup() {
+      const announcement = await safeFetchJSON('announcement.json', { isActive: false });
+      
+      if (announcement.isActive) {
+        // ALWAYS SHOW THE POPUP NOW. Session Storage check has been completely removed.
+        const popupEl = document.getElementById('global-popup');
+        const contentArea = document.getElementById('popup-content-area');
+        contentArea.innerHTML = ''; 
+
+        // 1. Inject Main Content
+        if (announcement.type === 'text') {
+          contentArea.innerHTML = `<p style="white-space: pre-wrap; font-size: 1.1rem; line-height: 1.6; margin-bottom: 20px;">${announcement.content}</p>`;
+        } else if (announcement.type === 'image') {
+          contentArea.innerHTML = `<img src="${announcement.content}" alt="Announcement" style="margin-bottom: 20px;">`;
+        } else if (announcement.type === 'html') {
+          contentArea.innerHTML = `<div>${announcement.content}</div>`;
+        }
+
+        // 2. Inject Optional Action Button
+        if (announcement.actionText && announcement.actionLink) {
+          contentArea.innerHTML += `<a href="${announcement.actionLink}" target="_blank" class="popup-action-btn">${announcement.actionText}</a>`;
+        }
+
+        // 3. Show Popup
+        setTimeout(() => {
+          popupEl.classList.add('show');
+        }, 2000); 
+      }
+    }
+
+    // Close Popup Logic
+    document.getElementById('popup-close-btn').addEventListener('click', () => {
+      document.getElementById('global-popup').classList.remove('show');
+    });
+
     async function loadCMSData() {
-      masterPriority = await safeFetchJSON('https://vuaacast.akibb.site/channel-order.json', {});
-      eventsData = await safeFetchJSON('https://vuaacast.akibb.site/events.json', []);
-      serversData = await safeFetchJSON('https://vuaacast.akibb.site/servers.json', [
+      masterPriority = await safeFetchJSON('channel-order.json', {});
+      eventsData = await safeFetchJSON('events.json', []);
+      serversData = await safeFetchJSON('servers.json', [
         { name: "🇧🇩 BDIX Server", url: "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u" },
         { name: "⚽ Sports Server", url: "https://iptv-org.github.io/iptv/categories/sports.m3u" },
         { name: "🌍 Global Server", url: "https://iptv-org.github.io/iptv/index.m3u" }
@@ -746,12 +818,14 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
       }
       
       await loadChannels(currentServer);
+      checkAndShowPopup(); 
     }
 
     backToMainBtn.addEventListener('click', () => {
       serverSelect.classList.remove('hide-el');
       backToMainBtn.classList.add('hide-el');
       searchContainer.classList.remove('hide-el');
+      announcementContainer.classList.add('hide-el');
       eventFilterContainer.classList.add('hide-el');
       channelGrid.classList.remove('events-mode');
       
@@ -786,8 +860,7 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
 
     window.addEventListener('load', triggerSplashExit);
     setTimeout(triggerSplashExit, 1500);
-
-    const phrases = ['T Sports...','Somoy TV...','News...','Sports...'];
+      const phrases = ['T Sports...','Somoy TV...','News...','Sports...'];
     let pIdx = 0, cIdx = 0, deleting = false;
     function typePlaceholder() {
       const p = phrases[pIdx], pre = 'Search ';
@@ -894,18 +967,23 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
       channelGrid.innerHTML = '<div class="state-msg"><i class="fas fa-spinner fa-spin"></i><p>Fetching data…</p></div>';
       allChannels = []; searchInput.value = ''; currentDisplayList = [];
       customOrder = masterPriority[url] || [];
+
       try {
         if (url === 'ongoing') {
           serverSelect.classList.add('hide-el');
           backToMainBtn.classList.remove('hide-el');
           searchContainer.classList.add('hide-el');
+          announcementContainer.classList.remove('hide-el');
           eventFilterContainer.classList.remove('hide-el'); 
+          announcementText.textContent = "Welcome to AHR Sports! 🔥 LIVE EVENTS HAPPENING NOW! • 🔗 All streams are publicly sourced • ⚠️ AHR Sports acts only as a player and do not host or own any of these streams • ⏳ Expect stream instability during peak times • 📶 Strong internet recommended • ✉️ Contact us for any copyright removal requests. Thank you <3";
+
           channelGrid.classList.add('events-mode');
           sortAndRender(); 
         } else {
           serverSelect.classList.remove('hide-el');
           backToMainBtn.classList.add('hide-el');
           searchContainer.classList.remove('hide-el');
+          announcementContainer.classList.add('hide-el');
           eventFilterContainer.classList.add('hide-el'); 
           channelGrid.classList.remove('events-mode');
 
@@ -1067,9 +1145,8 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
         if (currentRenderLimit < list.length) appendLoadMoreButton(list);
       };
       channelGrid.appendChild(loadBtn);
-    }
-
-    function renderChannels(list) {
+      }
+      function renderChannels(list) {
       channelGrid.innerHTML = '';
       if (SHOW_ONGOING_BANNER && serverSelect.value !== 'ongoing') {
         const bannerWrap = document.createElement('div');
@@ -1134,8 +1211,8 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
       sourceSwitcherWrap.classList.add('animate-shine');
       
       // Fetch latest JSON data silently
-      masterPriority = await safeFetchJSON('https://vuaacast.akibb.site/channel-order.json', {});
-      eventsData = await safeFetchJSON('https://vuaacast.akibb.site/events.json', []);
+      masterPriority = await safeFetchJSON('channel-order.json', {});
+      eventsData = await safeFetchJSON('events.json', []);
       
       // Reload current grid with new data
       await loadChannels(currentServer);
@@ -1245,6 +1322,7 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
       if (qualityToggleBtn && qualityMenu) {
         qualityToggleBtn.textContent = 'AUTO'; qualityToggleBtn.style.opacity = '0.5'; qualityToggleBtn.style.pointerEvents = 'none'; qualityMenu.classList.add('hidden');
       }
+
       let printName = displayName.length > 18 ? displayName.substring(0, 18) + '...' : displayName;
       nowPlayingName.textContent = printName;
       nowPlayingName.title = displayName; 
@@ -1267,9 +1345,8 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
       }, WATCHDOG_LIMIT_MS);
 
       attemptStreamPlay(currentActiveStreams[currentStreamIndex]);
-    }
-
-    function attemptStreamPlay(streamObj) {
+          }
+      function attemptStreamPlay(streamObj) {
       if (hls) { hls.destroy(); hls = null; }
       
       const targetUrl = streamObj.url;
@@ -1640,8 +1717,7 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
         else { togglePP(); showControls(); showIndicator(); }
       } else { togglePP(); showIndicator(); }
     });
-    
-    tvPlayer.addEventListener('mousemove', () => {
+      tvPlayer.addEventListener('mousemove', () => {
       showControls();
       if (body.classList.contains('focus-mode')) {
         tvPlayer.style.cursor = 'default'; clearTimeout(cursorHideTimeout);
@@ -1710,7 +1786,7 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
       if (!fromEvent) {
         try {
           if (document.exitFullscreen && document.fullscreenElement) document.exitFullscreen().catch(() => {});
-         else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
+          else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
           else if (document.msExitFullscreen && document.msFullscreenElement) document.msExitFullscreen();
         } catch(e) {}
       }
