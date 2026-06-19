@@ -14,9 +14,9 @@
     <meta name="description" content="Watch your favorite live channels with AHR Sports, a fast and reliable web-based .M3U Player and IPTV Player. Stream sports, news, and entertainment seamlessly." />
     <meta name="keywords" content="AHR Sports, AHR, .M3U Player, IPTV Player, Live Channel, Web IPTV, Live TV Streaming" />
     <meta name="author" content="AHR" />
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" />
-    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" />
-    <link rel="preload" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" as="image" />
+    <link rel="icon" type="image/png" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" />
+    <link rel="apple-touch-icon" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" />
+    <link rel="preload" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" as="image" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&amp;family=DM+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet" />
@@ -42,8 +42,7 @@
 html { scroll-behavior: smooth; background-color: var(--bg-deep) !important; overscroll-behavior: none; }
 
 body { font-family: 'DM Sans', sans-serif; background: var(--bg-deep); color: var(--text-prime); min-height: 100dvh; overflow-x: clip; overscroll-behavior: none; }
-
-#splash-screen { position: fixed; top: -50vh; bottom: -50vh; left: -50vw; right: -50vw; background: var(--bg-deep); z-index: 9999; transition: opacity 0.6s ease; }
+      #splash-screen { position: fixed; top: -50vh; bottom: -50vh; left: -50vw; right: -50vw; background: var(--bg-deep); z-index: 9999; transition: opacity 0.6s ease; }
 .splash-loader { position: fixed; top: 45%; left: 50%; transform: translate(-50%, -50%); width: 150px; height: 4px; background: rgba(255,255,255,0.08); border-radius: 4px; overflow: hidden; transition: opacity 0.3s ease; }
 .splash-progress { height: 100%; width: 0%; background: var(--accent); border-radius: 4px; animation: fillBar 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
 @keyframes fillBar { to { width: 100%; } }
@@ -60,15 +59,11 @@ body::before { content: ''; position: fixed; inset: 0; background-image: url("da
 .ambient { position: fixed; pointer-events: none; border-radius: 50%; filter: blur(120px); opacity: 0.12; z-index: -2; transform: translateZ(0); will-change: transform; }
 .ambient-1 { width: 600px; height: 600px; background: var(--accent); top: -200px; left: -150px; }
 .ambient-2 { width: 500px; height: 500px; background: #1A5CFF; bottom: -100px; right: -100px; }
-
-#app { position: relative; z-index: 1; display: grid; grid-template-rows: auto 1fr auto; height: 100dvh; max-width: 1800px; margin: 0 auto; padding: 0 16px; overflow: hidden; }
+      #app { position: relative; z-index: 1; display: grid; grid-template-rows: auto 1fr auto; height: 100dvh; max-width: 1800px; margin: 0 auto; padding: 0 16px; overflow: hidden; }
 
 header { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); gap: 16px; }
 .logo-wrap { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
 .logo-wrap img { width: 32px; height: 32px; object-fit: contain; filter: drop-shadow(0 0 12px var(--accent-glow)); }
-.logo-text { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.4rem; letter-spacing: -0.02em; }
-.logo-text .vibe { color: #E2E8F0; }
-.logo-text .cast { color: var(--accent); }
 
 .header-status { display: flex; align-items: center; gap: 12px; flex: 1; justify-content: flex-end; min-width: 0; }
 .live-indicator { display: flex; align-items: center; gap: 8px; background: var(--glass); border: 1px solid rgba(255,255,255,0.2); color: var(--text-dim); font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 0.8rem; padding: 4px 12px; border-radius: 999px; max-width: 100%; transition: all 0.3s ease; min-width: 0; }
@@ -83,8 +78,7 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 
 #tv-player { position: relative; width: 100%; flex: 1; min-height: 0; background: #000; border-radius: 12px; overflow: hidden; box-shadow: 0 0 0 1px var(--border), 0 8px 30px rgba(0,0,0,0.25); cursor: pointer; container-type: inline-size; }
 #tv-player video { width: 100%; height: 100%; object-fit: contain; display: block; pointer-events: none; }
-
-#source-switcher-wrap { 
+      #source-switcher-wrap { 
   display: flex; align-items: center; gap: 12px; background: var(--bg-deep); 
   border: 1px solid var(--border); border-radius: 8px; 
   padding: 0 12px; height: 42px; min-height: 42px; 
@@ -131,8 +125,7 @@ header { display: flex; align-items: center; justify-content: space-between; pad
   border: 1px solid transparent; 
 }
 .srv-name { max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
-
-.player-idle { position: absolute; inset: 0; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; background: #000; transition: opacity 0.4s; padding: 20px; text-align: center; }
+      .player-idle { position: absolute; inset: 0; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; background: #000; transition: opacity 0.4s; padding: 20px; text-align: center; }
 .player-idle.hidden { opacity: 0; pointer-events: none; }
 .idle-icon { width: clamp(60px, 10cqi, 120px); height: clamp(60px, 10cqi, 120px); border-radius: 50%; background: rgba(255,106,0,0.1); border: 1px solid rgba(255,106,0,0.2); display: flex; align-items: center; justify-content: center; font-size: clamp(1.5rem, 4cqi, 3.5rem); color: var(--accent); margin-bottom: 4px; }
 .idle-text { color: var(--text-muted); font-size: clamp(0.9rem, 2.5cqi, 1.6rem); font-weight: 500; }
@@ -189,7 +182,6 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 .auto-search-toggle.is-active .auto-search-circle { background: var(--accent); transform: translateX(18px); }
 .auto-search-circle i { font-size: 7px; transition: opacity 0.2s; }
 
-/* Play means OFF, Pause means ON (running automatically) */
 .auto-search-toggle:not(.is-active) .auto-search-circle .play-icon { display: block; color: #fff; }
 .auto-search-toggle:not(.is-active) .auto-search-circle .pause-icon { display: none; }
 .auto-search-toggle.is-active .auto-search-circle .play-icon { display: none; }
@@ -236,8 +228,7 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 #play-pause-indicator { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: clamp(4.5rem, 15cqi, 14rem); opacity: 0; transition: opacity 0.2s; z-index: 30; pointer-events: none; }
 #play-pause-indicator i { color: var(--accent); filter: drop-shadow(0 0 25px rgba(255, 106, 0, 0.6)); }
 #play-pause-indicator.visible { opacity: 1; }
-
-.sidebar { order: 1; display: flex; flex-direction: column; gap: 12px; background: var(--glass); border: 1px solid var(--border); border-radius: 12px; padding: 12px; backdrop-filter: blur(12px); box-shadow: 0 8px 30px rgba(0,0,0,0.15); min-height: 0; }
+      .sidebar { order: 1; display: flex; flex-direction: column; gap: 12px; background: var(--glass); border: 1px solid var(--border); border-radius: 12px; padding: 12px; backdrop-filter: blur(12px); box-shadow: 0 8px 30px rgba(0,0,0,0.15); min-height: 0; }
 .sidebar-controls { display: flex; flex-direction: row; gap: 8px; flex-shrink: 0; align-items: center; transition: top 0.1s ease-out; }
 
 select#server-select, #search-input { background-color: rgba(255,255,255,0.08); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; color: var(--text-prime); font-family: 'DM Sans', sans-serif; font-size: 0.8rem; font-weight: 500; height: 34px; transition: all 0.2s; outline: none; }
@@ -302,8 +293,7 @@ footer { border-top: 1px solid var(--border); padding: 8px 0; display: flex; ali
 .footer-left img { height: 18px; opacity: 0.5; filter: grayscale(1); }
 .footer-dev { font-size: 0.75rem; color: var(--text-dim); }
 .footer-dev span { color: var(--accent); font-weight: 500; }
-html
-    @media (max-width: 640px) {
+     @media (max-width: 640px) {
       #player-controls { padding: 20px 12px 12px !important; gap: 8px; }
       .control-btn { width: 34px; height: 34px; flex: 0 0 34px; font-size: 0.85rem; }
       .quality-btn { padding: 4px 10px; font-size: 0.7rem; }
@@ -382,7 +372,7 @@ html
         </div>
       </div>
       <div class="splash-content" id="splash-content">
-        <img src="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" onerror="this.src='logo.png'; this.onerror=null;" alt="AHR Sports Logo - IPTV Player" />
+        <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="AHR Sports Logo - IPTV Player" />
       </div>
     </div>
     <div class="ambient ambient-1">
@@ -391,15 +381,7 @@ html
     </div>
     <div id="app">
       <header class="hide-on-focus">
-        <a class="logo-wrap" href="#">        <img src="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" onerror="this.src='logo.png'; this.onerror=null;" alt="AHR Sports Logo" />
-        <div>
-          <h1 class="logo-text">
-            <span class="vibe">            AHR
-</span>
-            <span class="cast">            Sports
-</span>
-          </h1>
-        </div>
+        <a class="logo-wrap" href="#">        <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="AHR Sports Logo" />
 </a>
         <div class="header-status">
           <div class="live-indicator" id="live-indicator">
@@ -431,7 +413,7 @@ html
             <div class="player-loading hidden" id="player-loading">
               <div id="loading-skeleton">
               </div>
-              <img id="loading-logo" src="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" onerror="this.src='logo.png'; this.onerror=null;" alt="Loading..." />
+              <img id="loading-logo" src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="Loading..." />
               <div id="loading-skip-msg">
               </div>
             </div>
@@ -519,7 +501,7 @@ html
                 <div class="marquee-content">
                   <span id="announcement-text">                  Loading events...
 </span>
-                </div>
+     </div>
               </div>
             </div>
           </div>
@@ -545,7 +527,7 @@ html
       </main>
       <footer class="hide-on-focus">
         <div class="footer-left">
-          <img src="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" onerror="this.src='logo.png'; this.onerror=null;" alt="logo" />
+          <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="logo" />
           <span>          AHR Sports © 2026
 </span>
         </div>
@@ -762,7 +744,7 @@ html
     }
 
     async function checkAndShowPopup() {
-      const announcement = await safeFetchJSON('announcement.json', { isActive: false });
+      const announcement = await safeFetchJSON('https://vuaacast.akibb.site/announcement.json', { isActive: false });
       
       if (announcement.isActive) {
         // ALWAYS SHOW THE POPUP NOW. Session Storage check has been completely removed.
@@ -790,16 +772,15 @@ html
         }, 2000); 
       }
     }
-
-    // Close Popup Logic
+      // Close Popup Logic
     document.getElementById('popup-close-btn').addEventListener('click', () => {
       document.getElementById('global-popup').classList.remove('show');
     });
 
     async function loadCMSData() {
-      masterPriority = await safeFetchJSON('channel-order.json', {});
-      eventsData = await safeFetchJSON('events.json', []);
-      serversData = await safeFetchJSON('servers.json', [
+      masterPriority = await safeFetchJSON('https://vuaacast.akibb.site/channel-order.json', {});
+      eventsData = await safeFetchJSON('https://vuaacast.akibb.site/events.json', []);
+      serversData = await safeFetchJSON('https://vuaacast.akibb.site/servers.json', [
         { name: "🇧🇩 BDIX Server", url: "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u" },
         { name: "⚽ Sports Server", url: "https://iptv-org.github.io/iptv/categories/sports.m3u" },
         { name: "🌍 Global Server", url: "https://iptv-org.github.io/iptv/index.m3u" }
@@ -878,7 +859,8 @@ html
       activeIntervals.forEach(clearInterval);
       activeIntervals = [];
     }
-      filterBtns.forEach(btn => {
+    
+    filterBtns.forEach(btn => {
       btn.addEventListener('click', (e) => {
         filterBtns.forEach(b => b.classList.remove('active'));
         e.target.classList.add('active');
@@ -1051,7 +1033,6 @@ html
             <span class="team-name" title="${event.teamB_name}">${event.teamB_name}</span>
           </div>
         </div>
-        
         <div class="event-footer">
           <div class="countdown-timer" id="timer-${event.id}">
              <i class="far fa-clock"></i> Loading...
@@ -1170,8 +1151,9 @@ html
       const visibleList = list.slice(0, currentRenderLimit);
       visibleList.forEach((ch, i) => channelGrid.appendChild(createChannelCard(ch, i)));
       if (currentRenderLimit < list.length) appendLoadMoreButton(list);
-      }
-      function renderBottomSwitcher(sources) {
+    }
+
+    function renderBottomSwitcher(sources) {
       bottomSwitcher.innerHTML = '';
       
       if (sources.length <= 1) {
@@ -1212,8 +1194,8 @@ html
       sourceSwitcherWrap.classList.add('animate-shine');
       
       // Fetch latest JSON data silently
-      masterPriority = await safeFetchJSON('channel-order.json', {});
-      eventsData = await safeFetchJSON('events.json', []);
+      masterPriority = await safeFetchJSON('https://vuaacast.akibb.site/channel-order.json', {});
+      eventsData = await safeFetchJSON('https://vuaacast.akibb.site/events.json', []);
       
       // Reload current grid with new data
       await loadChannels(currentServer);
@@ -1362,8 +1344,7 @@ html
           maxLiveSyncPlaybackRate: 1.05,     
           liveMaxLatencyDurationCount: 15   
         };
-
-        if (targetRef) {
+          if (targetRef) {
           hlsConfig.xhrSetup = function(xhr, url) {
             xhr.setRequestHeader('x-forwarded-for', targetRef);
           };
@@ -1492,8 +1473,9 @@ html
             initPlaybackSequence(currentSourcesList[currentSourceIndex].streams, currentPlayName, false); 
           }, delay);
           return;
-      }
-           // Exhausted every possible server inside the event tray completely loop loop back
+        }
+
+        // Exhausted every possible server inside the event tray completely loop loop back
         serversTriedInLoop = 0; 
         if (currentServer === 'ongoing') {
            playerLoading.classList.add('hidden');
@@ -1702,8 +1684,7 @@ html
         showControls();
       }
     });
-
-    volumeSlider.addEventListener('input', (e) => {
+      volumeSlider.addEventListener('input', (e) => {
       e.stopPropagation(); videoEl.volume = e.target.value;
       if (videoEl.volume > 0) { videoEl.muted = false; isMuted = false; } 
       else { videoEl.muted = true; isMuted = true; }
@@ -1822,7 +1803,7 @@ html
       setTimeout(() => { if (isPlaying && videoEl.paused) videoEl.play().catch(e => console.log('iOS resume play prevented', e)); }, 100);
     });
 
-   document.addEventListener('DOMContentLoaded', async () => {
+    document.addEventListener('DOMContentLoaded', async () => {
       adjustFooterLayout();
       adjustAutoSearchPosition();
       
