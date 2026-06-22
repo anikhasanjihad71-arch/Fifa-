@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=5.0,user-scalable=yes">
@@ -9,16 +7,16 @@
   <meta name="apple-mobile-web-app-title" content="NexFlix Live">
   <meta name="theme-color" content="#080B14">
 
-  <title>NexFlix Live | .M3U Player &amp; IPTV Player for Live Channels</title>
-  <meta name="description" content="Watch your favorite live channels with NexFlix Live, a fast and reliable web-based .M3U Player and IPTV Player. Stream sports, news, and entertainment seamlessly.">
-  <meta name="keywords" content="NexFlix Live, NexFlix, .M3U Player, IPTV Player, Live Channel, Web IPTV, Live TV Streaming">
+  <title>NexFlix Live | Sports & Live Tv</title>
+  <meta name="description" content="Watch your favorite live channels with NexFlix Live (tv.rnexflix.top), a fast and reliable web-based .M3U Player and IPTV Player. Stream sports, news, and entertainment seamlessly.">
+  <meta name="keywords" content="NexFlix, Live, .M3U Player, IPTV Player, Live Channel, Web IPTV, Live TV Streaming">
   <meta name="author" content="AHR">
   
   <link rel="canonical" href="https://tv.rnexflix.top">
-  <link rel="icon" type="image/png" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png">
-  <link rel="apple-touch-icon" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png">
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png">
   
-  <link rel="preload" href="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" as="image">
+  <link rel="preload" href="https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/logo.png" as="image">
   
   <script src="https://cdn.tailwindcss.com"></script><style id="sb_cln_style">ins[class*="adsbygoogle"],ins[class*="adsbyadop"],[id*="div-gpt-ad"],amp-ad{display:none !important;}</style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,7 +59,7 @@
     .splash-content.netflix-zoom { animation: netflixZoom 0.75s cubic-bezier(0.65, 0.05, 0.15, 1) forwards; }
     @keyframes netflixZoom { 0% { opacity: 1; transform: translate(-50%, -50%) scale(1); filter: blur(0px); } 100% { opacity: 0; transform: translate(-50%, -50%) scale(4.5); filter: blur(6px); } }
 
-    #splash-screen img { width: 180px; height: auto; max-height: 120px; object-fit: contain; filter: drop-shadow(0 0 20px var(--accent-glow)); }
+    #splash-screen img { width: 90px; height: 90px; object-fit: contain; filter: drop-shadow(0 0 20px var(--accent-glow)); }
 
     body::before { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"); pointer-events: none; z-index: -1; opacity: 0.6; transform: translateZ(0); will-change: transform; }
     .ambient { position: fixed; pointer-events: none; border-radius: 50%; filter: blur(120px); opacity: 0.12; z-index: -2; transform: translateZ(0); will-change: transform; }
@@ -73,7 +71,7 @@
     /* PWA Safe Area Fix for Desktop/General */
     header { display: flex; align-items: center; justify-content: space-between; padding: max(8px, env(safe-area-inset-top)) 0 8px; border-bottom: 1px solid var(--border); gap: 16px; }
     .logo-wrap { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
-    .logo-wrap img { width: 36px; height: 36px; object-fit: contain; filter: drop-shadow(0 0 12px var(--accent-glow)); }
+    .logo-wrap img { width: 32px; height: 32px; object-fit: contain; filter: drop-shadow(0 0 12px var(--accent-glow)); }
     .logo-text { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.4rem; letter-spacing: -0.02em; }
     .logo-text .vibe { color: #E2E8F0; }
     .logo-text .cast { color: var(--accent); }
@@ -92,6 +90,7 @@
 
     #tv-player { position: relative; width: 100%; flex: 1; min-height: 0; background: #000; border-radius: 12px; overflow: hidden; box-shadow: 0 0 0 1px var(--border), 0 8px 30px rgba(0,0,0,0.25); cursor: pointer; container-type: inline-size; }
     
+    /* ADDED HARDWARE ACCELERATION HERE TO FIX SCROLLING LAG */
     #tv-player video { width: 100%; height: 100%; object-fit: contain; display: block; pointer-events: none; transform: translateZ(0); will-change: transform; }
 
     #source-switcher-wrap { 
@@ -272,9 +271,7 @@
     #play-pause-indicator.visible { opacity: 1; }
 
     .sidebar { order: 1; display: flex; flex-direction: column; gap: 12px; background: var(--glass); border: 1px solid var(--border); border-radius: 12px; padding: 12px; backdrop-filter: blur(12px); box-shadow: 0 8px 30px rgba(0,0,0,0.15); min-height: 0; }
-    
-    /* পেজ স্ক্রল করার সময় কাঁপার সমস্যাটি দূর করতে transition: top বাদ দেওয়া হলো */
-    .sidebar-controls { display: flex; flex-direction: row; gap: 8px; flex-shrink: 0; align-items: center; }
+    .sidebar-controls { display: flex; flex-direction: row; gap: 8px; flex-shrink: 0; align-items: center; transition: top 0.1s ease-out; }
     
     select#server-select, #search-input { background-color: rgba(255,255,255,0.08); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 6px; color: var(--text-prime); font-family: 'DM Sans', sans-serif; font-size: 0.8rem; font-weight: 500; height: 34px; transition: all 0.2s; outline: none; }
     select#server-select:focus, #search-input:focus { border-color: var(--accent); background-color: rgba(255,255,255,0.12); }
@@ -373,10 +370,21 @@
     .event-card::before {
       content: ''; position: absolute; inset: 0;
       background: linear-gradient(180deg, rgba(255,106,0,0.15) 0%, transparent 100%);
-      opacity: 1; transition: opacity 0.3s; pointer-events: none;
+      opacity: 0; transition: opacity 0.3s; pointer-events: none;
     }
     .event-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.5); border-color: rgba(255, 106, 0, 0.6); }
-    .event-card.active-event { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 10px 25px rgba(255, 106, 0, 0.2); }
+    .event-card:hover::before { opacity: 1; }
+    
+    .event-card.active-event { 
+      border-color: var(--accent) !important; 
+      box-shadow: 0 0 0 1px var(--accent), 0 10px 25px rgba(255, 106, 0, 0.2) !important; 
+      opacity: 1 !important; 
+      filter: none !important; 
+    }
+    .event-card.active-event::before {
+      opacity: 1; 
+      background: linear-gradient(180deg, rgba(255,106,0,0.25) 0%, transparent 100%);
+    }
     
     .event-card.is-ended {
       filter: grayscale(1);
@@ -449,6 +457,65 @@
     .footer-dev { font-size: 0.75rem; color: var(--text-dim); }
     .footer-dev span { color: var(--accent); font-weight: 500; }
 
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .fa-spin { animation: spin 1s linear infinite; }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .channel-btn, .event-card { animation: fadeInUp 0.3s ease both; }
+
+    /* Fullscreen Server Tray Overlay */
+    body.focus-mode #source-switcher-wrap {
+      position: fixed !important;
+      top: max(env(safe-area-inset-top), 16px) !important;
+      left: 50% !important;
+      z-index: 100000 !important;
+      width: fit-content !important;
+      max-width: 90vw !important;
+      height: 42px !important;
+      border-radius: 12px !important;
+      border: 1px solid rgba(255,255,255,0.15) !important;
+      background: rgba(14, 20, 34, 0.5) !important;
+      backdrop-filter: blur(12px) !important;
+      margin: 0 !important;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease, transform 0.3s ease !important;
+    }
+    body.focus-mode #source-switcher-wrap.fs-visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateX(-50%) translateY(0) !important;
+    }
+    body.focus-mode #source-switcher-wrap:not(.fs-visible) {
+      transform: translateX(-50%) translateY(-10px) !important;
+    }
+
+    /* POPUP STYLES */
+    #global-popup { position: fixed; inset: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(5px); z-index: 100000; display: flex; align-items: center; justify-content: center; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; padding: 20px; }
+    #global-popup.show { opacity: 1; pointer-events: auto; }
+    .popup-box { background: var(--bg-card); border: 1px solid var(--accent); border-radius: 16px; width: 100%; max-width: 400px; position: relative; transform: scale(0.9); transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.1); }
+    #global-popup.show .popup-box { transform: scale(1); }
+    .popup-close { position: absolute; top: 12px; right: 12px; width: 30px; height: 30px; border-radius: 50%; background: rgba(255,255,255,0.1); border: none; color: white; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 10; transition: background 0.2s; }
+    .popup-close:hover { background: rgba(255,255,255,0.2); }
+    .popup-content-area { padding: 30px 20px 20px; text-align: center; color: var(--text-prime); }
+    .popup-content-area img { max-width: 100%; border-radius: 8px; margin: 0 auto; display: block; }
+    .popup-action-btn { display: inline-block; margin-top: 16px; padding: 10px 24px; background: linear-gradient(135deg, var(--accent), var(--accent2)); color: white; font-weight: 700; border-radius: 8px; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 15px var(--accent-glow); }
+    .popup-action-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px var(--accent-glow); }
+
+    /* Custom Popup Inner Styles (Bulletproof fallback) */
+    .custom-popup-wrap { display: flex; flex-direction: column; align-items: center; padding: 10px; }
+    .custom-popup-icon { width: 64px; height: 64px; background: rgba(255,106,0,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; border: 1px solid rgba(255,106,0,0.3); box-shadow: 0 0 15px rgba(255,106,0,0.2); }
+    .custom-popup-icon i { font-size: 30px; color: var(--accent); }
+    .custom-popup-h3 { font-size: 1.25rem; font-weight: 800; color: white; margin-bottom: 8px; }
+    .custom-popup-p1 { color: #D1D5DB; font-size: 0.875rem; margin-bottom: 8px; line-height: 1.5; }
+    .custom-popup-p2 { color: var(--accent); font-weight: 900; font-size: 1.125rem; margin-bottom: 12px; letter-spacing: 0.05em; }
+    .custom-popup-p3 { color: #6B7280; font-size: 0.75rem; margin-bottom: 24px; padding: 0 8px; line-height: 1.5; font-style: italic; }
+    .custom-popup-btn-wrap { width: 100%; display: flex; flex-direction: column; gap: 12px; }
+    .c-btn-share { width: 100%; background: linear-gradient(to right, #FF6A00, #FF3B3B); color: white; font-weight: 700; padding: 12px 16px; border-radius: 12px; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 15px rgba(255,106,0,0.3); transition: transform 0.2s; }
+    .c-btn-share:hover { transform: scale(1.02); }
+    .c-btn-bookmark { width: 100%; background: #1F2937; color: #D1D5DB; font-weight: 700; padding: 10px 16px; border-radius: 12px; border: 1px solid #374151; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background 0.2s; }
+    .c-btn-bookmark:hover { background: #374151; }
+    .c-btn-bookmark i { color: #60A5FA; }
+
     @media (max-width: 640px) {
       #player-controls { padding: 20px 12px 12px !important; gap: 8px; }
       .control-btn { width: 34px; height: 34px; flex: 0 0 34px; font-size: 0.85rem; }
@@ -511,7 +578,7 @@
     body.focus-mode #tv-player { position: fixed; top: 0; left: 0; width: 100vw; height: 100dvh; aspect-ratio: auto !important; z-index: 99999; border-radius: 0; box-shadow: none; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); background: #000; }
     body.focus-mode main { padding: 0; display: block; }
   </style>
-<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.ml-1{margin-left:0.25rem}.hidden{display:none}.cursor-pointer{cursor:pointer}.text-\[10px\]{font-size:10px}.text-\[9px\]{font-size:9px}.text-\[\#CBD5E1\]{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-\[\#E2E8F0\]{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.text-\[\#FF6A00\]{--tw-text-opacity:1;color:rgb(255 106 0 / var(--tw-text-opacity, 1))}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}</style></head>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.ml-1{margin-left:0.25rem}.hidden{display:none}.cursor-pointer{cursor:pointer}.text-\[10px\]{font-size:10px}.text-\[9px\]{font-size:9px}.text-\[\#CBD5E1\]{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-\[\#E2E8F0\]{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.text-\[\#FF6A00\]{--tw-text-opacity:1;color:rgb(255 106 0 / var(--tw-text-opacity, 1))}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}</style></head>
 <body>
   
   <div id="global-popup">
@@ -522,14 +589,7 @@
     </div>
   </div>
 
-  <div id="splash-screen">
-    <div class="splash-loader" id="splash-loader">
-      <div class="splash-progress"></div>
-    </div>
-    <div class="splash-content" id="splash-content">
-      <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="NexFlix Live Logo">
-    </div>
-  </div>
+  
 
   <div class="ambient ambient-1"></div>
   <div class="ambient ambient-2"></div>
@@ -537,11 +597,23 @@
   <div id="app">
     <header class="hide-on-focus">
       <a class="logo-wrap" href="https://tv.rnexflix.top">
-        <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="NexFlix Live Logo">
-        <div>
-          <h1 class="logo-text"><span class="vibe">NexFlix</span><span class="cast"> Live</span></h1>
-        </div>
-      </a>
+    <div id="app">
+  <header class="hide-on-focus">
+
+    <a class="logo-wrap" href="#">
+
+      <img
+      src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png"
+      alt="NexFlix Live Logo">
+
+      <div>
+        <h1 class="logo-text">
+          <span class="vibe">Nex</span>
+          <span class="cast">Flix Live</span>
+        </h1>
+      </div>
+
+    </a>
 
       <div class="header-status">
         <div class="live-indicator" id="live-indicator">
@@ -550,7 +622,8 @@
         </div>
       </div>
     </header>
-        <main>
+
+    <main>
       <div class="player-section">
         
         <div id="source-switcher-wrap" class="hide-el">
@@ -575,12 +648,18 @@
 
           <video id="tv-player-video" playsinline=""></video>
 
-          <div class="player-loading hidden" id="player-loading">
-            <div id="loading-skeleton"></div>
-            <img id="loading-logo" src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="Loading...">
-            <div id="loading-skip-msg">
-            </div>
-          </div>
+         <div class="player-loading hidden" id="player-loading">
+    <div id="loading-skeleton"></div>
+
+    <img
+      id="loading-logo"
+      src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png"
+      alt="NexFlix Live Loading"
+    >
+
+    <div id="loading-skip-msg">
+    </div>
+</div>
 
           <div class="player-idle" id="player-idle">
             <div class="idle-icon"><i class="fas fa-tv"></i></div>
@@ -646,22 +725,71 @@
         </div>
 
         <div id="grid-scroll-wrapper" class="scroll-wrapper">
-          <div id="channel-grid">
-            <!-- এইচটিএমএল সাইজ কমাতে ডুপ্লিকেট স্ট্যাটিক চ্যানেল বাটনগুলো পরিমার্জন করা হলো। এগুলো পেজ লোড হওয়া মাত্রই ডাইনামিকালি অনলাইন থেকে রেন্ডার হবে। -->
-            <button class="load-more-btn"><i class="fas fa-chevron-down"></i> Load More</button>
-          </div>
-          <footer class="hide-on-focus">
-            <div class="footer-left">
-              <img src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png" onerror="this.src='logo.png'; this.onerror=null;" alt="logo">
-              <span>NexFlix Live © 2026</span>
-            </div>
-            <div class="footer-dev">Crafted by <span>~AHR</span></div>
-          </footer>
-        </div>
-      </div>
-    </main>
+          <div id="channel-grid"><div class="ongoing-banner-wrap"><button class="ongoing-banner-btn"><i class="fas fa-trophy"></i> <span>Watch World Cup 2026 &gt;&gt;</span></button></div><button class="channel-btn" data-id="Independent TV" style="animation-delay: 0ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778087037971.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Independent TV">Independent TV</span></button><button class="channel-btn" data-id="Deepto TV" style="animation-delay: 15ms;"><img src="https://upload.wikimedia.org/wikipedia/en/3/31/Deepto_TV_logo.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" style="display: none;">
+                  <div class="default-ch-icon" style="display: flex;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Deepto TV">Deepto TV</span></button><button class="channel-btn" data-id="Ekattor HD" style="animation-delay: 30ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Ekattor HD">Ekattor HD</span></button><button class="channel-btn" data-id="Jamuna TV" style="animation-delay: 45ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Jamuna TV">Jamuna TV</span></button><button class="channel-btn" data-id="Tom &amp; Jarry" style="animation-delay: 60ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Tom &amp; Jarry">Tom &amp; Jarry</span></button><button class="channel-btn" data-id="ATN News" style="animation-delay: 75ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="ATN News">ATN News</span></button><button class="channel-btn" data-id="DBC News HD" style="animation-delay: 90ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="DBC News HD">DBC News HD</span></button><button class="channel-btn" data-id="Deepto TV HD" style="animation-delay: 105ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Deepto TV HD">Deepto TV HD</span></button><button class="channel-btn" data-id="Somoy TV" style="animation-delay: 120ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560559088.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Somoy TV">Somoy TV <span class="text-[9px] text-[#FF6A00] ml-1">(3)</span></span></button><button class="channel-btn" data-id="Maasranga TV" style="animation-delay: 135ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1773680325498.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Maasranga TV">Maasranga TV</span></button><button class="channel-btn" data-id="Channel 24 HD" style="animation-delay: 150ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Channel 24 HD">Channel 24 HD</span></button><button class="channel-btn" data-id="News 24 HD" style="animation-delay: 165ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="News 24 HD">News 24 HD</span></button><button class="channel-btn" data-id="Star News" style="animation-delay: 180ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Star News">Star News</span></button><button class="channel-btn" data-id="Channel 9 HD" style="animation-delay: 195ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Channel 9 HD">Channel 9 HD</span></button><button class="channel-btn" data-id="Channel I HD" style="animation-delay: 210ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Channel I HD">Channel I HD</span></button><button class="channel-btn" data-id="Bangla Vision" style="animation-delay: 225ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Bangla Vision">Bangla Vision</span></button><button class="channel-btn" data-id="NTV" style="animation-delay: 240ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="NTV">NTV</span></button><button class="channel-btn" data-id="BTV" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778082545894.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="BTV">BTV</span></button><button class="channel-btn" data-id="Al Jazeera" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1777454219313.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Al Jazeera">Al Jazeera</span></button><button class="channel-btn" data-id="Al Quran" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778086065071.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Al Quran">Al Quran</span></button><button class="channel-btn" data-id="Islamic TV" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1772728412891.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Islamic TV">Islamic TV</span></button><button class="channel-btn" data-id="DD Sports" style="animation-delay: 250ms;"><img src="https://s3.aynaott.com/storage/188500190395c4de0e506d518925dcc4" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="DD Sports">DD Sports</span></button><button class="channel-btn" data-id="SRK TV" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1746005940155.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="SRK TV">SRK TV</span></button><button class="channel-btn" data-id="Deshi TV (720p)" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Deshi TV (720p)">Deshi TV (720p)</span></button><button class="channel-btn" data-id="Bein Sports 1" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Bein Sports 1">Bein Sports 1</span></button><button class="channel-btn" data-id="Quran" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Quran">Quran</span></button><button class="channel-btn" data-id="Live Quran TV" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Live Quran TV">Live Quran TV</span></button><button class="channel-btn" data-id="Motor Vision" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Motor Vision">Motor Vision</span></button><button class="channel-btn" data-id="G Series Drama" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="G Series Drama">G Series Drama</span></button><button class="channel-btn" data-id="PBS Kids" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="PBS Kids">PBS Kids</span></button><button class="channel-btn" data-id="Madani Tv" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Madani Tv">Madani Tv</span></button><button class="channel-btn" data-id="A SPOR" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="A SPOR">A SPOR</span></button><button class="channel-btn" data-id="REAL WILD" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="REAL WILD">REAL WILD</span></button><button class="channel-btn" data-id="DW English" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="DW English">DW English</span></button><button class="channel-btn" data-id="Press TV Iran" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Press TV Iran">Press TV Iran</span></button><button class="channel-btn" data-id="T Global News (Canada)" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="T Global News (Canada)">T Global News (Canada)</span></button><button class="channel-btn" data-id="Insight" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Insight">Insight</span></button><button class="channel-btn" data-id="Iran International(EN)" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Iran International(EN)">Iran International(EN)</span></button><button class="channel-btn" data-id="CNN (US)" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="CNN (US)">CNN (US)</span></button><button class="channel-btn" data-id="TRT WORLD" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="TRT WORLD">TRT WORLD</span></button><button class="channel-btn" data-id="FM Radio" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="FM Radio">FM Radio</span></button><button class="channel-btn" data-id="ALMASIRA MUBASHER" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="ALMASIRA MUBASHER">ALMASIRA MUBASHER</span></button><button class="channel-btn" data-id="Travel XP English" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Travel XP English">Travel XP English</span></button><button class="channel-btn" data-id="QURAN RADIOTV SMC" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="QURAN RADIOTV SMC">QURAN RADIOTV SMC</span></button><button class="channel-btn" data-id="AL EKHBARIA" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="AL EKHBARIA">AL EKHBARIA <span class="text-[9px] text-[#FF6A00] ml-1">(2)</span></span></button><button class="channel-btn" data-id="Travel XP English NZ" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Travel XP English NZ">Travel XP English NZ</span></button><button class="channel-btn" data-id="Rongeen TV" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Rongeen TV">Rongeen TV</span></button><button class="channel-btn" data-id="pcv" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="pcv">pcv</span></button><button class="channel-btn" data-id="Global News (US)" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Global News (US)">Global News (US)</span></button><button class="channel-btn" data-id="DW NEWS" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="DW NEWS">DW NEWS</span></button><button class="channel-btn" data-id="FASHION ONE" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="FASHION ONE">FASHION ONE <span class="text-[9px] text-[#FF6A00] ml-1">(2)</span></span></button><button class="channel-btn" data-id="DW English _" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="DW English _">DW English _</span></button><button class="channel-btn" data-id="France 24 English (720p)" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="France 24 English (720p)">France 24 English (720p)</span></button><button class="channel-btn" data-id="News Max 2" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="News Max 2">News Max 2</span></button><button class="channel-btn" data-id="NDTV Hindi" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="NDTV Hindi">NDTV Hindi</span></button><button class="channel-btn" data-id="NDTV NEWS" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="NDTV NEWS">NDTV NEWS</span></button><button class="channel-btn" data-id="EWTN TV" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="EWTN TV">EWTN TV</span></button><button class="channel-btn" data-id="Times Of India" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Times Of India">Times Of India</span></button><button class="channel-btn" data-id="Gopal Bhar TV" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Gopal Bhar TV">Gopal Bhar TV</span></button><button class="channel-btn" data-id="Doraemon TV" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Doraemon TV">Doraemon TV</span></button><button class="channel-btn" data-id="Arihant TV" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Arihant TV">Arihant TV</span></button><button class="channel-btn" data-id="France News 24" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="France News 24">France News 24</span></button><button class="channel-btn" data-id="Sheemaroo Bollywood" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Sheemaroo Bollywood">Sheemaroo Bollywood</span></button><button class="channel-btn" data-id="Mr Bean Animated" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Mr Bean Animated">Mr Bean Animated</span></button><button class="channel-btn" data-id="AAKASH AATH" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="AAKASH AATH">AAKASH AATH</span></button><button class="channel-btn" data-id="Action Hollywood Movies" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Action Hollywood Movies">Action Hollywood Movies</span></button><button class="channel-btn" data-id="Freelancer" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Freelancer">Freelancer</span></button><button class="channel-btn" data-id="Goldmines" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Goldmines">Goldmines</span></button><button class="channel-btn" data-id="Surongo" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Surongo">Surongo</span></button><button class="channel-btn" data-id="Animal Planet HD" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Animal Planet HD">Animal Planet HD</span></button><button class="channel-btn" data-id="YRF Music HD" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="YRF Music HD">YRF Music HD</span></button><button class="channel-btn" data-id="Goldmines Movies 2" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Goldmines Movies 2">Goldmines Movies 2</span></button><button class="channel-btn" data-id="Goldmines Movies" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Goldmines Movies">Goldmines Movies</span></button><button class="channel-btn" data-id="RTNEWS GLOBAL" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="RTNEWS GLOBAL">RTNEWS GLOBAL</span></button><button class="channel-btn" data-id="Cowboy tv" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Cowboy tv">Cowboy tv</span></button><button class="channel-btn" data-id="MK Six" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="MK Six">MK Six</span></button><button class="channel-btn" data-id="Hindi Movies" style="animation-delay: 250ms;"><div class="default-ch-icon"><i class="fas fa-tv"></i></div><span class="ch-name" title="Hindi Movies">Hindi Movies</span></button><button class="channel-btn" data-id="Cineedge HD" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Cineedge HD">Cineedge HD</span></button><button class="channel-btn" data-id="Uniques HD" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Uniques HD">Uniques HD</span></button><button class="channel-btn" data-id="Superrix HD" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Superrix HD">Superrix HD</span></button><button class="channel-btn" data-id="Screem" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Screem">Screem</span></button><button class="channel-btn" data-id="Sports Legends" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Sports Legends">Sports Legends</span></button><button class="channel-btn" data-id="Flash Guys HD" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Flash Guys HD">Flash Guys HD</span></button><button class="channel-btn" data-id="BuddyStar HD" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="BuddyStar HD">BuddyStar HD</span></button><button class="channel-btn" data-id="Luxel HD" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Luxel HD">Luxel HD</span></button><button class="channel-btn" data-id="Joy" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Joy">Joy</span></button><button class="channel-btn" data-id="Funny Junior HD" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Funny Junior HD">Funny Junior HD</span></button><button class="channel-btn" data-id="Crimes" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Crimes">Crimes</span></button><button class="channel-btn" data-id="True Stories" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="True Stories">True Stories</span></button><button class="channel-btn" data-id="Intelligence" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Intelligence">Intelligence</span></button><button class="channel-btn" data-id="Sports Range" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Sports Range">Sports Range</span></button><button class="channel-btn" data-id="Thunder Er" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Thunder Er">Thunder Er</span></button><button class="channel-btn" data-id="Fighters" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Fighters">Fighters</span></button><button class="channel-btn" data-id="Smarty" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Smarty">Smarty</span></button><button class="channel-btn" data-id="Lucky Family" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Lucky Family">Lucky Family</span></button><button class="channel-btn" data-id="Kids Stars" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Kids Stars">Kids Stars</span></button><button class="channel-btn" data-id="Party Universe" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083145889.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Party Universe">Party Universe</span></button><button class="channel-btn" data-id="Nikki" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778083459294.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Nikki">Nikki</span></button><button class="channel-btn" data-id="Originals" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085327477.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Originals">Originals</span></button><button class="channel-btn" data-id="Crazy Ex" style="animation-delay: 250ms;"><img src="https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085745609.png" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div><span class="ch-name" title="Crazy Ex">Crazy Ex</span></button><button class="load-more-btn"><i class="fas fa-chevron-down"></i> Load More</button></div>
+     <footer class="hide-on-focus">
+  <div class="footer-left">
+
+    <img
+      src="https://i.ibb.co.com/whKxCkmX/1000096798-removebg-preview.png"
+      alt="NexFlix Live Logo"
+    >
+
+    <span>NexFlix Live © 2026</span>
+
   </div>
-    <script>
+
+  <div class="footer-dev">
+    Created by <span>~AHR</span>
+  </div>
+</footer>   
+    
+  </div>
+
+  <script>
     // --- UTILITY: Convert Hex to Base64URL for DRM Keys ---
     function hexToBase64Url(hex) {
       if (!hex || hex.length % 2 !== 0) return '';
@@ -669,7 +797,7 @@
       return btoa(str).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
     }
 
-    let currentAppVersion = null;
+let currentAppVersion = null;
     let currentServerVersion = null; 
 
     async function initVersionControl() {
@@ -695,13 +823,13 @@
         // 1. Check App Version (Hard Refresh)
         if (data.version && data.version !== currentAppVersion) {
           window.location.replace(window.location.pathname + '?t=' + Date.now());
-          return; 
+          return; // Stop execution to let the page reload
         }
 
         // 2. Check Server Version (Soft Refresh)
         if (data.server_version && data.server_version !== currentServerVersion) {
           console.log("Server update detected! Refreshing sources...");
-          currentServerVersion = data.server_version; 
+          currentServerVersion = data.server_version; // Update local state
         
           const refreshBtn = document.getElementById('btn-refresh-stream');
           if (refreshBtn) refreshBtn.click();
@@ -734,6 +862,7 @@
     }
 
     window.addEventListener('keydown', function(e) {
+      // Prevent shortcuts if user is typing in a search bar or text input
       if (e.target.tagName.toLowerCase() === 'input' || e.target.tagName.toLowerCase() === 'textarea') return;
 
       if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) || (e.ctrlKey && e.key === 'U')) {
@@ -741,8 +870,9 @@
         return;
       }
 
+      // Keyboard Shortcuts
       switch(e.key.toLowerCase()) {
-        case ' ': 
+        case ' ': // Spacebar
         case 'k':
           e.preventDefault();
           togglePP();
@@ -891,9 +1021,7 @@
     let autoSearchToggled = false;
     let manualRetryCount = 0;
     const WATCHDOG_LIMIT_MS = 20000;
-
-    // ম্যাচের সময়কাল ৬ ঘণ্টা থেকে কমিয়ে ৩ ঘণ্টা করা হলো
-    const SIX_HOURS_MS = 3 * 60 * 60 * 1000;
+    const SIX_HOURS_MS = 6 * 60 * 60 * 1000;
 
     function adjustFooterLayout() {
       if (window.innerWidth <= 1024) {
@@ -928,32 +1056,23 @@
       adjustAutoSearchPosition();
     });
 
-    // স্ক্রল করার সময় ট্রানজিশন ল্যাগ ও ঝাঁকুনি এড়াতে রিফ্লো চেক অপ্টিমাইজড করা হলো
-    let lastPlayerBottom = -1;
     const layoutObserver = new ResizeObserver(() => {
       if (window.innerWidth <= 1024 && !document.body.classList.contains('focus-mode')) {
         const playerSec = document.querySelector('.player-section');
         const controls = document.querySelector('.sidebar-controls');
         
         if (playerSec && controls) {
-          const playerBottom = 50 + playerSec.offsetHeight;
-          if (playerBottom !== lastPlayerBottom) {
-            lastPlayerBottom = playerBottom;
-            controls.style.position = 'sticky';
-            controls.style.top = `calc(50px + env(safe-area-inset-top) + ${playerSec.offsetHeight}px)`;
-            controls.style.zIndex = '103'; 
-          }
+          // Dynamically calculate using CSS calc() to include the PWA safe-area notch
+          const playerHeight = playerSec.offsetHeight;
+          controls.style.position = 'sticky';
+          controls.style.top = `calc(50px + env(safe-area-inset-top) + ${playerHeight}px)`;
+          controls.style.zIndex = '103'; 
         }
       } else {
          const controls = document.querySelector('.sidebar-controls');
-         if (controls) { 
-           controls.style.position = ''; 
-           controls.style.top = ''; 
-           lastPlayerBottom = -1;
-         }
+         if (controls) { controls.style.position = ''; controls.style.top = ''; }
       }
     });
-
     async function safeFetchJSON(filename, defaultData) {
       try {
         const isLocal = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost';
@@ -976,8 +1095,396 @@
         if (announcement.type === 'text') {
           contentArea.innerHTML = `<p style="white-space: pre-wrap; font-size: 1.1rem; line-height: 1.6; margin-bottom: 20px;">${announcement.content}</p>`;
         } else if (announcement.type === 'image') {
-          contentArea
-                inner += `<span class="ch-name" title="${ch.name}">${ch.name}${multiIndicator}</span>`;
+          contentArea.innerHTML = `<img src="${announcement.content}" alt="Announcement" style="margin-bottom: 20px;">`;
+        } else if (announcement.type === 'html') {
+          contentArea.innerHTML = `<div>${announcement.content}</div>`;
+        }
+
+        // 2. Inject Optional Action Button
+        if (announcement.actionText && announcement.actionLink) {
+          contentArea.innerHTML += `<a href="${announcement.actionLink}" target="_blank" class="popup-action-btn">${announcement.actionText}</a>`;
+        }
+
+        // 3. Show Popup
+        setTimeout(() => {
+          popupEl.classList.add('show');
+        }, 2000); 
+      }
+    }
+
+    // Close Popup Logic
+    document.getElementById('popup-close-btn').addEventListener('click', () => {
+      document.getElementById('global-popup').classList.remove('show');
+    });
+
+    async function loadCMSData() {
+      masterPriority = await safeFetchJSON('channel-order.json', {});
+      eventsData = await safeFetchJSON('events.json', []);
+      serversData = await safeFetchJSON('servers.json', [
+        { name: "🇧🇩 BDIX Server", url: "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u" },
+        { name: "⚽ Sports Server", url: "https://iptv-org.github.io/iptv/categories/sports.m3u" },
+        { name: "🌍 Global Server", url: "https://iptv-org.github.io/iptv/index.m3u" }
+      ]);
+
+      serverSelect.innerHTML = '<option value="ongoing">🔥 Sports Events</option>';
+      serversData.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s.url; opt.textContent = s.name;
+        serverSelect.appendChild(opt);
+      });
+      serverSelect.innerHTML += '<option value="custom">➕ Custom Playlist</option>';
+      
+      if(serversData.length > 0) {
+        currentServer = serversData[0].url;
+        serverSelect.value = currentServer;
+      }
+      
+      await loadChannels(currentServer);
+      checkAndShowPopup(); 
+    }
+
+    backToMainBtn.addEventListener('click', () => {
+      serverSelect.classList.remove('hide-el');
+      backToMainBtn.classList.add('hide-el');
+      searchContainer.classList.remove('hide-el');
+      announcementContainer.classList.add('hide-el');
+      eventFilterContainer.classList.add('hide-el');
+      channelGrid.classList.remove('events-mode');
+      
+      if(serversData.length > 0) {
+        currentServer = serversData[0].url;
+        serverSelect.value = currentServer;
+      }
+      loadChannels(currentServer);
+    });
+
+    qualityToggleBtn.addEventListener('click', (e) => { e.stopPropagation(); qualityMenu.classList.toggle('hidden'); });
+    document.addEventListener('click', (e) => { if (!e.target.closest('#quality-wrapper')) qualityMenu.classList.add('hidden'); });
+
+    function triggerSplashExit() {
+      if (splashTriggered) return;
+      splashTriggered = true;
+      const progressBar = document.querySelector('.splash-progress');
+      if (progressBar) progressBar.style.width = '100%';
+      setTimeout(() => {
+        splashLoader.style.opacity = '0';
+        setTimeout(() => {
+          splashLoader.style.display = 'none';
+          splashContent.classList.add('reveal');
+          setTimeout(() => {
+            splashContent.classList.remove('reveal');
+            splashContent.classList.add('netflix-zoom');
+            setTimeout(() => { splashScreen.style.opacity = '0'; setTimeout(() => splashScreen.remove(), 600); }, 550); 
+          }, 800); 
+        }, 300); 
+      }, 800);
+    }
+
+    window.addEventListener('load', triggerSplashExit);
+    setTimeout(triggerSplashExit, 1500);
+
+    const phrases = ['T Sports...','Somoy TV...','News...','Sports...'];
+    let pIdx = 0, cIdx = 0, deleting = false;
+    function typePlaceholder() {
+      const p = phrases[pIdx], pre = 'Search ';
+      searchInput.setAttribute('placeholder', pre + (deleting ? p.slice(0,cIdx-1) : p.slice(0,cIdx+1)));
+      deleting ? cIdx-- : cIdx++;
+      let spd = deleting ? 40 : 100;
+      if (!deleting && cIdx === p.length) { spd = 1600; deleting = true; }
+      else if (deleting && cIdx === 0) { deleting = false; pIdx = (pIdx+1) % phrases.length; spd = 450; }
+      setTimeout(typePlaceholder, spd);
+    }
+
+    function clearAllCountdowns() {
+      activeIntervals.forEach(clearInterval);
+      activeIntervals = [];
+    }
+    
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        currentEventFilter = e.target.dataset.filter;
+        sortAndRender();
+      });
+    });
+
+    function sortAndRender() {
+      const q = searchInput.value.toLowerCase();
+      currentRenderLimit = 100;
+      
+      if (currentServer === 'ongoing') {
+        const now = Date.now();
+        let filtered = eventsData.filter(c => {
+          const matchesSearch = (c.title || '').toLowerCase().includes(q) || (c.teamA_name || '').toLowerCase().includes(q) || (c.teamB_name || '').toLowerCase().includes(q);
+          const dist = new Date(c.time).getTime() - now;
+          
+          const sportStr = (c.sport || '').toLowerCase();
+          const leagueStr = (c.league || '').toLowerCase();
+          const titleStr = (c.title || '').toLowerCase();
+          const isFootball = sportStr.includes('football') || sportStr.includes('soccer') || 
+                             leagueStr.includes('football') || leagueStr.includes('soccer') || 
+                             leagueStr.includes('laliga') || leagueStr.includes('premier') || 
+                             titleStr.includes('football');
+                             
+          const cutoffLimit = isFootball ? (2.2 * 60 * 60 * 1000) : SIX_HOURS_MS;
+          const isEndedMatch = dist <= -cutoffLimit;
+          
+          const matchesFilter = currentEventFilter === 'ended' ? isEndedMatch : !isEndedMatch;
+          
+          return matchesSearch && matchesFilter;
+        });
+
+        if (currentEventFilter === 'ended') {
+          filtered.sort((a,b) => new Date(b.time) - new Date(a.time));
+        } else {
+          filtered.sort((a,b) => new Date(a.time) - new Date(b.time));
+          filtered = filtered.slice(0, 5); 
+        }
+        
+        renderEventsList(filtered);
+      } else {
+        const sortedChannels = [...allChannels];
+        sortedChannels.sort((a, b) => {
+          const indexA = customOrder.indexOf(a.name);
+          const indexB = customOrder.indexOf(b.name);
+          if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+          if (indexA !== -1) return -1;
+          if (indexB !== -1) return 1;
+          return (a.originalIndex || 0) - (b.originalIndex || 0);
+        });
+        renderChannels(sortedChannels.filter(c => c.name.toLowerCase().includes(q)));
+      }
+    }
+
+    function parseM3U(text) {
+      const lines = text.split('\n');
+      const sourcesMap = new Map();
+      let currentName = 'Unknown Source';
+      let currentRef = '';
+      let currentLogo = '';
+      let currentKid = '';
+      let currentKey = '';
+      let indexCount = 0;
+
+      lines.forEach(raw => {
+        const line = raw.trim();
+        if (line.startsWith('#EXTINF')) {
+          const idx = line.indexOf(',');
+          currentName = idx !== -1 ? line.substring(idx+1).trim() : 'Unknown Source';
+          const lm = line.match(/tvg-logo="([^"]+)"/);
+          currentLogo = lm ? lm[1] : '';
+          currentRef = ''; currentKid = ''; currentKey = '';
+        } else if (line.startsWith('#EXTVLCOPT:http-referrer=')) {
+          currentRef = line.split('=')[1].trim();
+        } else if (line.startsWith('#KID:')) { // NEW: Allow users to specify KID via standard tags
+          currentKid = line.split(':')[1].trim();
+        } else if (line.startsWith('#KEY:')) { // NEW: Allow users to specify KEY via standard tags
+          currentKey = line.split(':')[1].trim();
+        } else if (line.startsWith('http')) {
+          if(!sourcesMap.has(currentName)) {
+            sourcesMap.set(currentName, { 
+              name: currentName, 
+              logo: currentLogo,
+              originalIndex: indexCount++,
+              streams: [] 
+            });
+          }
+          sourcesMap.get(currentName).streams.push({ 
+             url: line, 
+             referrer: currentRef, 
+             kid: currentKid, 
+             key: currentKey 
+          });
+          
+          currentName = 'Unknown Source'; 
+          currentRef = ''; currentLogo = ''; currentKid = ''; currentKey = '';
+        }
+      });
+      
+      allChannels = Array.from(sourcesMap.values());
+    }
+
+    async function loadChannels(url) {
+      clearAllCountdowns();
+      
+      // Show Skeleton Animation properly based on the grid type
+      const isEvents = (url === 'ongoing');
+      channelGrid.innerHTML = Array(isEvents ? 4 : 12).fill(`<div class="${isEvents ? 'skeleton-event' : 'skeleton-card'}"></div>`).join('');
+      
+      allChannels = []; searchInput.value = ''; currentDisplayList = [];
+      customOrder = masterPriority[url] || [];
+
+      try {
+        if (url === 'ongoing') {
+          serverSelect.classList.add('hide-el');
+          backToMainBtn.classList.remove('hide-el');
+          searchContainer.classList.add('hide-el');
+          announcementContainer.classList.remove('hide-el');
+          eventFilterContainer.classList.remove('hide-el'); 
+          announcementText.textContent = "Welcome to NexFlix Live! 🔥 LIVE EVENTS HAPPENING NOW! • 🔗 All streams are publicly sourced • ⚠️ NexFlix Live acts only as a player and do not host or own any of these streams • ⏳ Expect stream instability during peak times • 📶 Strong internet recommended • ✉️ Contact us for any copyright removal requests. Thank you <3";
+
+          channelGrid.classList.add('events-mode');
+          sortAndRender(); 
+        } else {
+          serverSelect.classList.remove('hide-el');
+          backToMainBtn.classList.add('hide-el');
+          searchContainer.classList.remove('hide-el');
+          announcementContainer.classList.add('hide-el');
+          eventFilterContainer.classList.add('hide-el'); 
+          channelGrid.classList.remove('events-mode');
+
+          const r = await fetch(url);
+          if (!r.ok) throw new Error('Bad response');
+          const text = await r.text();
+          parseM3U(text);
+          sortAndRender();
+        }
+      } catch(e) {
+        channelGrid.innerHTML = '<div class="state-msg"><i class="fas fa-exclamation-circle"></i><p>Failed to load data.</p></div>';
+      }
+    }
+
+    function formatTimeRemaining(distance) {
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+      if (days > 0) return `Starts in ${days}d ${hours}h ${minutes}m`;
+      if (hours > 0) return `Starts in ${hours}h ${minutes}m ${seconds}s`;
+      return `Starts in ${minutes}m ${seconds}s`;
+    }
+    
+    function formatTimeElapsed(distance) {
+      const elapsed = Math.abs(distance);
+      const hours = Math.floor(elapsed / (1000 * 60 * 60));
+      const minutes = Math.floor((elapsed % (1000 * 60 * 60)) / (1000 * 60));
+      if (hours > 0) return `${hours}h ${minutes}m`;
+      return `${minutes}m`;
+    }
+
+    function createEventCard(event) {
+      const card = document.createElement('div');
+      card.className = 'event-card';
+      card.dataset.title = event.title; 
+      card.dataset.id = event.id; 
+      
+      const evDate = new Date(event.time);
+      const eventTimeMs = evDate.getTime();
+      
+      const localDate = evDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+      const localTime = evDate.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit', timeZoneName: 'short' });
+
+      card.innerHTML = `
+        <div class="event-header-stacked">
+          <div class="event-meta-row">
+            <span class="evt-date"><i class="far fa-calendar-alt mr-1"></i>${localDate}</span>
+            <span class="evt-time"><i class="far fa-clock mr-1"></i>${localTime}</span>
+          </div>
+          <div class="evt-league" title="${event.league}">${event.league}</div>
+        </div>
+        
+        <div class="event-teams">
+          <div class="team-col">
+            <div class="team-logo-wrap"><img src="${event.teamA_logo}" alt="${event.teamA_name}" onerror="this.style.display='none'"></div>
+            <span class="team-name" title="${event.teamA_name}">${event.teamA_name}</span>
+          </div>
+          <div class="vs-wrapper">
+             <div class="vs-line"></div>
+             <span class="vs-text vs-badge"><span>VS</span></span>
+          </div>
+          <div class="team-col">
+            <div class="team-logo-wrap"><img src="${event.teamB_logo}" alt="${event.teamB_name}" onerror="this.style.display='none'"></div>
+            <span class="team-name" title="${event.teamB_name}">${event.teamB_name}</span>
+          </div>
+        </div>
+        
+        <div class="event-footer">
+          <div class="countdown-timer" id="timer-${event.id}">
+             <i class="far fa-clock"></i> Loading...
+          </div>
+        </div>
+      `;
+
+      if (currentPlayId === event.id) {
+        card.classList.add('active-event');
+      } else {
+        card.classList.remove('active-event');
+      }
+
+      const timerEl = card.querySelector(`#timer-${event.id}`);
+      
+      const updateTimer = () => {
+        const now = new Date().getTime();
+        const distance = eventTimeMs - now;
+
+        const sportStr = (event.sport || '').toLowerCase();
+        const leagueStr = (event.league || '').toLowerCase();
+        const isFootball = sportStr.includes('football') || sportStr.includes('soccer') || 
+                           leagueStr.includes('football') || leagueStr.includes('soccer') || 
+                           leagueStr.includes('laliga') || leagueStr.includes('premier');
+
+        const cutoffLimit = isFootball ? (2.2 * 60 * 60 * 1000) : SIX_HOURS_MS;
+
+        if (distance <= -cutoffLimit) {
+          timerEl.innerHTML = '<i class="fas fa-check-circle"></i> Match Ended';
+          timerEl.className = 'countdown-timer ended';
+          card.classList.add('is-ended');
+          return true; 
+        } else if (distance < 0) {
+          timerEl.innerHTML = `<i class="fas fa-broadcast-tower"></i> LIVE • Started ${formatTimeElapsed(distance)} ago`;
+          timerEl.className = 'countdown-timer is-live';
+          return false;
+        } else {
+          timerEl.innerHTML = `<i class="far fa-clock"></i> ${formatTimeRemaining(distance)}`;
+          timerEl.className = 'countdown-timer';
+          return false;
+        }
+      };
+      
+      updateTimer();
+      const intId = setInterval(() => { if(updateTimer()) clearInterval(intId); }, 1000);
+      activeIntervals.push(intId);
+
+      card.addEventListener('click', () => {
+        const UI_Sources = event.sources.map(s => {
+          return { name: s.name, streams: s.streams }; 
+        });
+        playStreamCollection(event.title, UI_Sources, card, true, event.id);
+      });
+      return card;
+    }
+
+    function renderEventsList(list) {
+      channelGrid.innerHTML = '';
+      currentDisplayList = list; 
+      
+      if (!list.length) {
+        channelGrid.innerHTML = '<div class="state-msg"><i class="fas fa-search"></i><p>No events in this category.</p></div>';
+        return;
+      }
+      list.forEach(evt => channelGrid.appendChild(createEventCard(evt)));
+    }
+
+    function createChannelCard(ch, indexOffset) {
+      const btn = document.createElement('button');
+      btn.className = 'channel-btn';
+      btn.dataset.id = ch.name; 
+      btn.style.animationDelay = `${Math.min(indexOffset * 15, 250)}ms`;
+      btn.onclick = () => { 
+        playStreamCollection(ch.name, [{ name: 'Primary', streams: ch.streams }], btn, false);
+      }; 
+
+      let inner = '';
+      const defaultIcon = `<div class="default-ch-icon"><i class="fas fa-tv"></i></div>`;
+      if (ch.logo) {
+        inner += `<img src="${ch.logo}" alt="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                  <div class="default-ch-icon" style="display: none;"><i class="fas fa-tv"></i></div>`;
+      } else { inner += defaultIcon; }
+      
+      const multiIndicator = ch.streams.length > 1 ? ` <span class="text-[9px] text-[#FF6A00] ml-1">(${ch.streams.length})</span>` : '';
+      inner += `<span class="ch-name" title="${ch.name}">${ch.name}${multiIndicator}</span>`;
       btn.innerHTML = inner;
 
       if (ch.name === currentPlayId) {
@@ -1220,124 +1727,125 @@
 
       attemptStreamPlay(currentActiveStreams[currentStreamIndex]);
     }
-        function attemptStreamPlay(streamObj) {
-      // 1. Destroy any existing player instances to prevent audio overlap/memory leaks
-      if (hls) { hls.destroy(); hls = null; }
-      if (dashPlayer) { dashPlayer.destroy(); dashPlayer = null; }
-      if (tsPlayer) { tsPlayer.destroy(); tsPlayer = null; }
+
+    function attemptStreamPlay(streamObj) {
+  // 1. Destroy any existing player instances to prevent audio overlap/memory leaks
+  if (hls) { hls.destroy(); hls = null; }
+  if (dashPlayer) { dashPlayer.destroy(); dashPlayer = null; }
+  if (tsPlayer) { tsPlayer.destroy(); tsPlayer = null; }
+  
+  ppIndicator.classList.remove('visible');
+
+  const targetUrl = streamObj.url;
+  const targetRef = streamObj.referrer;
+
+  // 2. ROUTE: DASH (.mpd)
+  if (targetUrl.includes('.mpd')) {
+    dashPlayer = dashjs.MediaPlayer().create();
+    dashPlayer.initialize(videoEl, targetUrl, true);
+    
+    dashPlayer.on(dashjs.MediaPlayer.events.ERROR, (e) => {
+      console.warn("DASH Engine Error. Executing fallback...");
+      executeStreamFallback();
+    });
+    
+    dashPlayer.on(dashjs.MediaPlayer.events.PLAYBACK_PLAYING, () => {
+       isVideoReady = true; checkHideLoading(); isPlaying = true; updatePP(true);
+    });
+
+  // 3. ROUTE: MPEG-TS (.ts)
+  } else if (targetUrl.includes('.ts')) {
+    if (mpegts.getFeatureList().mseLivePlayback) {
+      tsPlayer = mpegts.createPlayer({
+        type: 'mse', // MSE routing for raw transport streams
+        isLive: true,
+        url: targetUrl
+      });
+      tsPlayer.attachMediaElement(videoEl);
+      tsPlayer.load();
+      tsPlayer.play().catch(e => console.log('TS Autoplay prevented', e));
+
+      tsPlayer.on(mpegts.Events.ERROR, (e) => {
+        console.warn("MPEG-TS Engine Error. Executing fallback...");
+        executeStreamFallback();
+      });
       
-      ppIndicator.classList.remove('visible');
-
-      const targetUrl = streamObj.url;
-      const targetRef = streamObj.referrer;
-
-      // 2. ROUTE: DASH (.mpd)
-      if (targetUrl.includes('.mpd')) {
-        dashPlayer = dashjs.MediaPlayer().create();
-        dashPlayer.initialize(videoEl, targetUrl, true);
-        
-        dashPlayer.on(dashjs.MediaPlayer.events.ERROR, (e) => {
-          console.warn("DASH Engine Error. Executing fallback...");
-          executeStreamFallback();
-        });
-        
-        dashPlayer.on(dashjs.MediaPlayer.events.PLAYBACK_PLAYING, () => {
-           isVideoReady = true; checkHideLoading(); isPlaying = true; updatePP(true);
-        });
-
-      // 3. ROUTE: MPEG-TS (.ts)
-      } else if (targetUrl.includes('.ts')) {
-        if (mpegts.getFeatureList().mseLivePlayback) {
-          tsPlayer = mpegts.createPlayer({
-            type: 'mse', // MSE routing for raw transport streams
-            isLive: true,
-            url: targetUrl
-          });
-          tsPlayer.attachMediaElement(videoEl);
-          tsPlayer.load();
-          tsPlayer.play().catch(e => console.log('TS Autoplay prevented', e));
-
-          tsPlayer.on(mpegts.Events.ERROR, (e) => {
-            console.warn("MPEG-TS Engine Error. Executing fallback...");
-            executeStreamFallback();
-          });
-          
-          videoEl.addEventListener('playing', () => {
-             isVideoReady = true; checkHideLoading(); isPlaying = true; updatePP(true);
-          }, {once: true});
-        } else {
-          showPlayerError("Browser does not support .ts playback.");
-        }
-
-      // 4. ROUTE: HLS (.m3u8) - Your existing logic
-      } else if (Hls.isSupported()) {
-        const hlsConfig = {
-          maxBufferLength: 30,             
-          maxMaxBufferLength: 60,          
-          maxBufferSize: 60 * 1000 * 1000, 
-          backBufferLength: 30,            
-          enableWorker: true,  
-          liveSyncDurationCount: 3,
-          maxLiveSyncPlaybackRate: 1.05,
-          liveMaxLatencyDurationCount: 15
-        };
-
-        if (targetRef) {
-          hlsConfig.xhrSetup = function(xhr, url) {
-            xhr.setRequestHeader('x-forwarded-for', targetRef);
-          };
-        }
-
-        hls = new Hls(hlsConfig);
-        hls.loadSource(targetUrl);
-        hls.attachMedia(videoEl);
-        
-        hls.on(Hls.Events.MANIFEST_PARSED, (event, data) => {
-          videoEl.play().catch(e => console.log('Autoplay prevented', e));
-          isPlaying = true; updatePP(true);
-          renderQualityButtons(data.levels);
-        });
-        
-        hls.on(Hls.Events.ERROR, (_, data) => { 
-          if (data.fatal) { 
-            switch (data.type) {
-              case Hls.ErrorTypes.NETWORK_ERROR:
-                const code = data.response ? data.response.code : 0;
-                if (code === 403 || code === 404 || code === 0 || code >= 500) {
-                    console.warn(`HLS Fatal Network Drop (Code: ${code}). Instant Failover Triggered.`);
-                    executeStreamFallback();
-                    return;
-                }
-                hls.startLoad();
-                break;
-              case Hls.ErrorTypes.MEDIA_ERROR:
-                hls.recoverMediaError(); 
-                break;
-              default:
-                executeStreamFallback(); 
-                break;
-            }
-          }
-        });
-        
-      // 5. ROUTE: Native Safari Fallback
-      } else if (videoEl.canPlayType('application/vnd.apple.mpegurl')) {
-        videoEl.src = targetUrl;
-        videoEl.style.pointerEvents = 'auto';
-        
-        videoEl.addEventListener('loadedmetadata', () => {
-          videoEl.play().catch(e => console.log('Autoplay prevented', e));
-          isPlaying = true; updatePP(true);
-        }, {once: true});
-        
-        videoEl.onerror = () => { 
-          console.warn("Native Safari playback failed. Instant Failover.");
-          executeStreamFallback(); 
-        };
-      } else {
-        showPlayerError("Your browser does not support playing this stream type.");
-      }
+      videoEl.addEventListener('playing', () => {
+         isVideoReady = true; checkHideLoading(); isPlaying = true; updatePP(true);
+      }, {once: true});
+    } else {
+      showPlayerError("Browser does not support .ts playback.");
     }
+
+  // 4. ROUTE: HLS (.m3u8) - Your existing logic
+  } else if (Hls.isSupported()) {
+    const hlsConfig = {
+      maxBufferLength: 30,             
+      maxMaxBufferLength: 60,          
+      maxBufferSize: 60 * 1000 * 1000, 
+      backBufferLength: 30,            
+      enableWorker: true,  
+      liveSyncDurationCount: 3,
+      maxLiveSyncPlaybackRate: 1.05,
+      liveMaxLatencyDurationCount: 15
+    };
+
+    if (targetRef) {
+      hlsConfig.xhrSetup = function(xhr, url) {
+        xhr.setRequestHeader('x-forwarded-for', targetRef);
+      };
+    }
+
+    hls = new Hls(hlsConfig);
+    hls.loadSource(targetUrl);
+    hls.attachMedia(videoEl);
+    
+    hls.on(Hls.Events.MANIFEST_PARSED, (event, data) => {
+      videoEl.play().catch(e => console.log('Autoplay prevented', e));
+      isPlaying = true; updatePP(true);
+      renderQualityButtons(data.levels);
+    });
+    
+    hls.on(Hls.Events.ERROR, (_, data) => { 
+      if (data.fatal) { 
+        switch (data.type) {
+          case Hls.ErrorTypes.NETWORK_ERROR:
+            const code = data.response ? data.response.code : 0;
+            if (code === 403 || code === 404 || code === 0 || code >= 500) {
+                console.warn(`HLS Fatal Network Drop (Code: ${code}). Instant Failover Triggered.`);
+                executeStreamFallback();
+                return;
+            }
+            hls.startLoad();
+            break;
+          case Hls.ErrorTypes.MEDIA_ERROR:
+            hls.recoverMediaError(); 
+            break;
+          default:
+            executeStreamFallback(); 
+            break;
+        }
+      }
+    });
+    
+  // 5. ROUTE: Native Safari Fallback
+  } else if (videoEl.canPlayType('application/vnd.apple.mpegurl')) {
+    videoEl.src = targetUrl;
+    videoEl.style.pointerEvents = 'auto';
+    
+    videoEl.addEventListener('loadedmetadata', () => {
+      videoEl.play().catch(e => console.log('Autoplay prevented', e));
+      isPlaying = true; updatePP(true);
+    }, {once: true});
+    
+    videoEl.onerror = () => { 
+      console.warn("Native Safari playback failed. Instant Failover.");
+      executeStreamFallback(); 
+    };
+  } else {
+    showPlayerError("Your browser does not support playing this stream type.");
+  }
+}
 
     function showLoadingMessage(htmlMsg) {
       clearTimeout(textDisplayTimeout);
@@ -1374,7 +1882,7 @@
     function showPlayerError(customMessage = null) {
       clearTimeout(skipTimeout); clearTimeout(retryTimeout); clearTimeout(loadTimeout); clearInterval(countdownInterval);
       if (hls) { hls.destroy(); hls = null; }
-      if (dashPlayer) { dashPlayer.reset(); dashPlayer = null; } 
+      if (dashPlayer) { dashPlayer.reset(); dashPlayer = null; } // Cleanup dash on error
 
       if (customMessage) {
         playerLoading.classList.add('hidden');
@@ -1419,6 +1927,7 @@
            let timePassed = Date.now() - animStartTime;
            let delay = Math.max(500, 1200 - timePassed);
            
+           // Automatically jump to the next channel in the grid if all servers fail
            skipTimeout = setTimeout(() => { switchChannel(1); }, 2500 + delay);
         }
       } else {
@@ -1531,7 +2040,8 @@
         btn.dataset.quality = opt.val; 
         btn.textContent = opt.text;
         qualityMenu.appendChild(btn);
-                btn.addEventListener('click', (e) => {
+        
+        btn.addEventListener('click', (e) => {
           e.stopPropagation();
           qualityMenu.querySelectorAll('.quality-menu-btn').forEach(b => b.classList.remove('active'));
           e.target.classList.add('active');
@@ -1835,5 +2345,7 @@
       typePlaceholder();
     });
   </script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;fbc9fb9420ef4285b25e78f80c256a56&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
 </body>
-</html>
