@@ -7764,6 +7764,19 @@
       "key": ""
     }
   ]
+      },
+      {
+  "id": "src_20260625_telemundo",
+  "name": "Telemundo",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbffb/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZmZiOjE3ODIzMjczMzcxMjg6Y2RubGl2ZXR2LnR2OjIzNWIyMTkzYTZlNmM4YjQuMmYzNThkMGZhOGIyZWYxY2M5ZGYwZTJlYjc1YjlmNWUzNmRiNDU4YWIxOWM4Y2IxMzUwZGQ1MDFiNmMxYTMxNQ",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
       }
     ]
   }
