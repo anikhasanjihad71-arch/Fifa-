@@ -6746,6 +6746,58 @@
             "key": ""
           }
         ]
+      },
+      {
+        "id": "src_1782223049858_ngqq0su25",
+        "name": "Bioscope",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+      },
+      {
+        "id": "src_1782223049858_ngqq0su25",
+        "name": "Cazé TV",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/360p-vtt/index.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+      },
+      {
+  "id": "src_20260625_dsports",
+  "name": "D Sports",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
+      },
+      {
+  "id": "src_20260625_ptv",
+  "name": "PTV",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://live6.asimxtech.online/ptv/index.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
       }
     ]
   },
@@ -7016,6 +7068,58 @@
             "key": ""
           }
         ]
+      },
+      {
+        "id": "src_1782223049858_ngqq0su25",
+        "name": "Bioscope",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+      },
+      {
+        "id": "src_1782223049858_ngqq0su25",
+        "name": "Cazé TV",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/360p-vtt/index.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+      },
+      {
+  "id": "src_20260625_dsports",
+  "name": "D Sports",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
+      },
+      {
+  "id": "src_20260625_ptv",
+  "name": "PTV",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://live6.asimxtech.online/ptv/index.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
       }
     ]
   },
@@ -7286,6 +7390,58 @@
             "key": ""
           }
         ]
+      },
+      {
+        "id": "src_1782223049858_ngqq0su25",
+        "name": "Bioscope",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+      },
+      {
+        "id": "src_1782223049858_ngqq0su25",
+        "name": "Cazé TV",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/360p-vtt/index.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+      },
+      {
+  "id": "src_20260625_dsports",
+  "name": "D Sports",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
+      },
+      {
+  "id": "src_20260625_ptv",
+  "name": "PTV",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://live6.asimxtech.online/ptv/index.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
       }
     ]
   },
@@ -7590,6 +7746,19 @@
   "streams": [
     {
       "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
+      },
+      {
+  "id": "src_20260625_ptv",
+  "name": "PTV",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://live6.asimxtech.online/ptv/index.m3u8",
       "referrer": "",
       "kid": "",
       "key": ""
