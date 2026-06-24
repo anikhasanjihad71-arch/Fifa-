@@ -6836,6 +6836,19 @@
       "key": ""
             }
         ]
+      },
+      {
+  "id": "src_tsn2_hd",
+  "name": "TSN 2 HD",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc174/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc0OjE3ODIzMzIzNDE2MTU6Y2RubGl2ZXR2LnR2OmUyZTQwYTg0MDgyNmIyNGYuNzc1YWUzNTgxODRhMTA1NzI5ZWE4ZmQ5OTRmYWEwMGRhNTI4OTAzMzFmZGYzODJkMTlkMTU0NmQwNTM4NmE4Mw",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
       }
     ]
   },
@@ -7196,6 +7209,19 @@
       "key": ""
             }
         ]
+      },
+      {
+  "id": "src_tsn2_hd",
+  "name": "TSN 2 HD",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc174/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc0OjE3ODIzMzIzNDE2MTU6Y2RubGl2ZXR2LnR2OmUyZTQwYTg0MDgyNmIyNGYuNzc1YWUzNTgxODRhMTA1NzI5ZWE4ZmQ5OTRmYWEwMGRhNTI4OTAzMzFmZGYzODJkMTlkMTU0NmQwNTM4NmE4Mw",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
       }
     ]
   },
@@ -7556,6 +7582,19 @@
       "key": ""
             }
         ]
+      },
+      {
+  "id": "src_tsn2_hd",
+  "name": "TSN 2 HD",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc174/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc0OjE3ODIzMzIzNDE2MTU6Y2RubGl2ZXR2LnR2OmUyZTQwYTg0MDgyNmIyNGYuNzc1YWUzNTgxODRhMTA1NzI5ZWE4ZmQ5OTRmYWEwMGRhNTI4OTAzMzFmZGYzODJkMTlkMTU0NmQwNTM4NmE4Mw",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
       }
     ]
   },
@@ -7911,6 +7950,19 @@
   "streams": [
     {
       "url": "https://inproviszon.st/peacock-1.m3u8?md5=dbcbe5ba2cda0235516f4e513fdb99a3&exp=1782336816",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
+      },
+      {
+  "id": "src_tsn2_hd",
+  "name": "TSN 2 HD",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc174/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc0OjE3ODIzMzIzNDE2MTU6Y2RubGl2ZXR2LnR2OmUyZTQwYTg0MDgyNmIyNGYuNzc1YWUzNTgxODRhMTA1NzI5ZWE4ZmQ5OTRmYWEwMGRhNTI4OTAzMzFmZGYzODJkMTlkMTU0NmQwNTM4NmE4Mw",
       "referrer": "",
       "kid": "",
       "key": ""
