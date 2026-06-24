@@ -7862,45 +7862,6 @@
             "key": ""
           }
         ]
-      },
-      {
-        "id": "src_1782288620626_dsports",
-        "name": "D Sports",
-        "isHidden": false,
-        "streams": [
-          {
-            "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
-            "referrer": "",
-            "kid": "",
-            "key": ""
-          }
-        ]
-      },
-      {
-        "id": "src_1782288620626_bioscope",
-        "name": "Bioscope",
-        "isHidden": false,
-        "streams": [
-          {
-            "url": "https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8",
-            "referrer": "",
-            "kid": "",
-            "key": ""
-          }
-        ]
-      },
-      {
-        "id": "src_1782288620626_cctv",
-        "name": "CCTV",
-        "isHidden": false,
-        "streams": [
-          {
-            "url": "https://www.rtmpcdn.com/live/amty.m3u8",
-            "referrer": "",
-            "kid": "",
-            "key": ""
-          }
-        ]
       }
       ]
     ]
