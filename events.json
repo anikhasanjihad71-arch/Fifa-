@@ -7968,6 +7968,19 @@
       "key": ""
     }
   ]
+      },
+      {
+  "id": "src_nexflix_extra",
+  "name": "NexFlix Extra",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://lb9.strmd.st/secure/fePuVbkUaegiBTxfPagtbtktWUNnlnXT/rtmp/stream/oLOBbbuGfxIMEXCsleyX8miP84m8mQBQAy0FjdF2LOkr1-gaH2zYQADIyeZt2aq1o1LolNo/1/playlist.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    }
+  ]
       }
     ]
   }
