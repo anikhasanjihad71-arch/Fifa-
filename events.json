@@ -6847,12 +6847,76 @@
       "referrer": "",
       "kid": "",
       "key": ""
+    {
+  "id": "src_1781633113765_75ec7t4xe",
+  "name": "Telemundo",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.elugohome.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.smalic.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.cloudhostar.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.thelistener.pk/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
     }
-  ]
+        ]
       }
     ]
   },
-  { 
+  {
     "id": "match_1782120742507",
     "tournamentId": "tour_1781633100325",
     "title": "Match Broadcast",
@@ -7220,8 +7284,72 @@
       "referrer": "",
       "kid": "",
       "key": ""
+    {
+  "id": "src_1781633113765_75ec7t4xe",
+  "name": "Telemundo",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.elugohome.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.smalic.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.cloudhostar.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.thelistener.pk/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
     }
-  ]
+        ]
       }
     ]
   },
@@ -7595,10 +7723,76 @@
       "key": ""
     }
   ]
+  {
+  "id": "src_1781633113765_75ec7t4xe",
+  "name": "Telemundo",
+  "isHidden": false,
+  "streams": [
+    {
+      "url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.elugohome.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.smalic.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.cloudhostar.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.thelistener.pk/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    }
+        ]
       }
     ]
   },
-  { 
+  {
     "id": "match_1782288620623",
     "tournamentId": "tour_1781633100325",
     "title": "Match Broadcast",
@@ -7969,9 +8163,9 @@
     }
   ]
       },
-      {
-  "id": "src_nexflix_extra",
-  "name": "NexFlix Extra",
+     {
+  "id": "src_1781633113765_75ec7t4xe",
+  "name": "Telemundo",
   "isHidden": false,
   "streams": [
     {
@@ -7979,9 +8173,63 @@
       "referrer": "",
       "kid": "",
       "key": ""
+    },
+    {
+      "url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+      "referrer": "",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.elugohome.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.smalic.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.cloudhostar.com/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
+    },
+    {
+      "url": "https://daffodil.thelistener.pk/tele.m3u8",
+      "referrer": "https://roxiestreams.info/",
+      "kid": "",
+      "key": ""
     }
   ]
-      }
+     }
     ]
   }
 ]
