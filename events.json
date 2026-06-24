@@ -1,0 +1,53 @@
+[
+  {
+    "id": "match-01",
+    "title": "France vs Iraq",
+    "league": "FIFA WORLD CUP 2026",
+    "time": "2026-06-25T18:00:00+06:00",
+    "teamA_name": "France",
+    "teamA_logo": "https://flagcdn.com/w80/fr.png",
+    "teamB_name": "Iraq",
+    "teamB_logo": "https://flagcdn.com/w80/iq.png",
+    "sources": [
+      {
+        "name": "Server 1 (HD)",
+        "streams": [
+          {
+            "url": "https://your-domain.com/stream1.m3u8",
+            "referrer": ""
+          }
+        ]
+      },
+      {
+        "name": "Server 2 (SD)",
+        "streams": [
+          {
+            "url": "https://your-domain.com/stream1_backup.m3u8",
+            "referrer": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "match-02",
+    "title": "Norway vs Senegal",
+    "league": "FIFA WORLD CUP 2026",
+    "time": "2026-06-25T21:00:00+06:00",
+    "teamA_name": "Norway",
+    "teamA_logo": "https://flagcdn.com/w80/no.png",
+    "teamB_name": "Senegal",
+    "teamB_logo": "https://flagcdn.com/w80/sn.png",
+    "sources": [
+      {
+        "name": "Server 1",
+        "streams": [
+          {
+            "url": "https://your-domain.com/stream2.m3u8",
+            "referrer": ""
+          }
+        ]
+      }
+    ]
+  }
+]
