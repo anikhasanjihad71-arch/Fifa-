@@ -6787,12 +6787,12 @@
   ]
       },
       {
-  "id": "src_20260625_ptv",
-  "name": "PTV",
+  "id": "src_20260625_nexflixtop",
+  "name": "NexFlix Top",
   "isHidden": false,
   "streams": [
     {
-      "url": "https://live6.asimxtech.online/ptv/index.m3u8",
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbffb/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZmZiOjE3ODIzMjgxMTc2ODI6Y2RubGl2ZXR2LnR2OjRmMjNjNzU0Y2Q1YmY1OTUuYTVmMTM4ZTdiZDc0MWY4ZTM1MWZmZDE3MDJiNmFhMGY2M2VhMzI5N2FlOTgxMWNmMDAxZWM1OTc1NGQwZThlMA",
       "referrer": "",
       "kid": "",
       "key": ""
@@ -7109,12 +7109,12 @@
   ]
       },
       {
-  "id": "src_20260625_ptv",
-  "name": "PTV",
+  "id": "src_20260625_nexflixtop",
+  "name": "NexFlix Top",
   "isHidden": false,
   "streams": [
     {
-      "url": "https://live6.asimxtech.online/ptv/index.m3u8",
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbffb/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZmZiOjE3ODIzMjgxMTc2ODI6Y2RubGl2ZXR2LnR2OjRmMjNjNzU0Y2Q1YmY1OTUuYTVmMTM4ZTdiZDc0MWY4ZTM1MWZmZDE3MDJiNmFhMGY2M2VhMzI5N2FlOTgxMWNmMDAxZWM1OTc1NGQwZThlMA",
       "referrer": "",
       "kid": "",
       "key": ""
@@ -7431,12 +7431,12 @@
   ]
       },
       {
-  "id": "src_20260625_ptv",
-  "name": "PTV",
+  "id": "src_20260625_nexflixtop",
+  "name": "NexFlix Top",
   "isHidden": false,
   "streams": [
     {
-      "url": "https://live6.asimxtech.online/ptv/index.m3u8",
+      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbffb/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZmZiOjE3ODIzMjgxMTc2ODI6Y2RubGl2ZXR2LnR2OjRmMjNjNzU0Y2Q1YmY1OTUuYTVmMTM4ZTdiZDc0MWY4ZTM1MWZmZDE3MDJiNmFhMGY2M2VhMzI5N2FlOTgxMWNmMDAxZWM1OTc1NGQwZThlMA",
       "referrer": "",
       "kid": "",
       "key": ""
@@ -7764,19 +7764,7 @@
       "key": ""
     }
   ]
-      },
-      {
-  "id": "src_20260625_telemundo",
-  "name": "Telemundo",
-  "isHidden": false,
-  "streams": [
-    {
-      "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbffb/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZmZiOjE3ODIzMjczMzcxMjg6Y2RubGl2ZXR2LnR2OjIzNWIyMTkzYTZlNmM4YjQuMmYzNThkMGZhOGIyZWYxY2M5ZGYwZTJlYjc1YjlmNWUzNmRiNDU4YWIxOWM4Y2IxMzUwZGQ1MDFiNmMxYTMxNQ",
-      "referrer": "",
-      "kid": "",
-      "key": ""
-    }
-  ]
+      }
       }
     ]
   }
