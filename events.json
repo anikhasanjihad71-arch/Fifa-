@@ -6229,10 +6229,12 @@
       "referrer": "",
       "kid": "",
       "key": ""
-    }
-  ]
-},
-{
+            }
+        ]
+      }
+    ]
+  },
+  {
   "id": "src_nexflix_4k",
   "name": "NexFlix 4K",
   "isHidden": false,
@@ -6510,9 +6512,11 @@
             "referrer": "",
             "kid": "",
             "key": ""
-          }
+                  }
         ]
       }
+    ]
+  },
   {
     "id": "match_1782120538223",
     "tournamentId": "tour_1781633100325",
@@ -6868,10 +6872,12 @@
       "referrer": "",
       "kid": "",
       "key": ""
-    }
-  ]
+            }
+        ]
+      }
+    ]
   },
-  {
+  { 
     "id": "match_1782120742507",
     "tournamentId": "tour_1781633100325",
     "title": "Match Broadcast",
@@ -7226,8 +7232,10 @@
       "referrer": "",
       "kid": "",
       "key": ""
-    }
-  ]
+            }
+        ]
+      }
+    ]
   },
   {
     "id": "match_1782288555459",
@@ -7584,10 +7592,12 @@
       "referrer": "",
       "kid": "",
       "key": ""
-    }
-  ]
-},
-  {
+            }
+        ]
+      }
+    ]
+  },
+  { 
     "id": "match_1782288620623",
     "tournamentId": "tour_1781633100325",
     "title": "Match Broadcast",
