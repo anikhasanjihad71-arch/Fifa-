@@ -8586,11 +8586,11 @@
 },
 {
 "id": "src_nexflix_4k",
-"name": "NexFlix 4K",
+"name": "BBC ONE",
 "isHidden": false,
 "streams": [
 {
-"url": "https://tahmidx.cinemoja2.workers.dev/",
+"url": "https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccd7e/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjZDdlOjE3ODIzNDEzMjY5MDk6Y2RubGl2ZXR2LnR2OjMzNWE1ZTlhZmNkMDNlZjMuMzk2YzZmYzJjYTNjNDZjMTJiZjU5OGE1NDJjZDJiYWNhZDRmY2FmY2JkOTZhNDUzNTZiZmJmZWFkYzNjOGIyNw",
 "referrer": "",
 "kid": "",
 "key": ""
@@ -9026,11 +9026,11 @@
 },
 {
 "id": "src_nexflix_4k",
-"name": "NexFlix 4K",
+"name": "BBC ONE",
 "isHidden": false,
 "streams": [
 {
-"url": "https://tahmidx.cinemoja2.workers.dev/",
+"url": "https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccd7e/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjZDdlOjE3ODIzNDEzMjY5MDk6Y2RubGl2ZXR2LnR2OjMzNWE1ZTlhZmNkMDNlZjMuMzk2YzZmYzJjYTNjNDZjMTJiZjU5OGE1NDJjZDJiYWNhZDRmY2FmY2JkOTZhNDUzNTZiZmJmZWFkYzNjOGIyNw",
 "referrer": "",
 "kid": "",
 "key": ""
