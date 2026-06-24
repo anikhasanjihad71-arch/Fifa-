@@ -1,53 +1,668 @@
 [
   {
     "id": "match-01",
-    "title": "France vs Iraq",
+    "title": "Switzerland vs Canada",
     "league": "FIFA WORLD CUP 2026",
-    "time": "2026-06-25T18:00:00+06:00",
-    "teamA_name": "France",
-    "teamA_logo": "https://flagcdn.com/w80/fr.png",
-    "teamB_name": "Iraq",
-    "teamB_logo": "https://flagcdn.com/w80/iq.png",
+    "time": "2026-06-25T01:00:00+06:00",
+    "teamA_name": "Switzerland",
+    "teamA_logo": "https://flagcdn.com/w80/ch.png",
+    "teamB_name": "Canada",
+    "teamB_logo": "https://flagcdn.com/w80/ca.png"
     "sources": [
+  {
+    "name": "BeIN Sports",
+    "streams": [
       {
-        "name": "Server 1 (HD)",
-        "streams": [
-          {
-            "url": "https://your-domain.com/stream1.m3u8",
-            "referrer": ""
-          }
-        ]
-      },
-      {
-        "name": "Server 2 (SD)",
-        "streams": [
-          {
-            "url": "https://your-domain.com/stream1_backup.m3u8",
-            "referrer": ""
-          }
-        ]
+        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+        "referrer": ""
       }
     ]
   },
   {
-    "id": "match-02",
-    "title": "Norway vs Senegal",
-    "league": "FIFA WORLD CUP 2026",
-    "time": "2026-06-25T21:00:00+06:00",
-    "teamA_name": "Norway",
-    "teamA_logo": "https://flagcdn.com/w80/no.png",
-    "teamB_name": "Senegal",
-    "teamB_logo": "https://flagcdn.com/w80/sn.png",
-    "sources": [
+    "name": "TRT 1",
+    "streams": [
       {
-        "name": "Server 1",
-        "streams": [
-          {
-            "url": "https://your-domain.com/stream2.m3u8",
-            "referrer": ""
-          }
-        ]
+        "url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8",
+        "referrer": ""
       }
+    ]
+  },
+  {
+    "name": "Toffee",
+    "streams": [
+      {
+        "url": "https://sm-monirul.top/tof/live/toffee4/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Win Sports",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TyC Sports 1080P",
+    "streams": [
+      {
+        "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c648a9fd43861cef74582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7f9b05816df6af4b0014ec37d47fa83439fd501e982d20d8311d320f91498c7f78cd44381e4ef598d6f77a02022405fbdc213b1c853b1d69b6d3c8f795a297437c790e335caa1e43d277debf6cac505b5739cc84d290146e935c8054de3dd4bd31b4d0fca325a8dff082b18b7cd5a2e03a8e4ab8bc1d752d769d6adf3d47f7098b94136178925f42b252d88a68b358ac70799bf27c5e5394678ebd805ba8da28fea878848b72cde88a1cb6a0c1d35444aad7596b7419769d171a3cb5306594e4fa2d315e78ecb513d6700d7d3079a4355e995dbc3f20139c36c1e1adb61df5a176583613f2bab7eafe85106ee0704812732f25c47e213acc24cffc583bde65a0b6f49f39934a8176b9f9d0e109b65ea7660398639/88/1920x1080_5162480/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 2K",
+    "streams": [
+      {
+        "url": "https://tv-trt1.medya.trt.com.tr/master_1440.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "DAZN",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Go Live",
+    "streams": [
+      {
+        "url": "https://soft-pond-09f1.lollenses0.workers.dev/https/d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8?ref=https%3A%2F%2Ffifatv.qzz.io%2F",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "BeIN Sports 5",
+    "streams": [
+      {
+        "url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "NexFlix Backup",
+    "streams": [
+      {
+        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Foorjia Live",
+    "streams": [
+      {
+        "url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/stream_t813af7b18a8dad5cffacb8aa8312239d_r1758813727.m3u8?llhlsHBs=0.9",
+        "referrer": ""
+      }
+    ]
+  }
+    ]
+  },
+  {
+    "id": "match-02",
+    "title": "Bosnia & Herzegovina vs Qatar",
+    "league": "FIFA WORLD CUP 2026",
+    "time": "2026-06-25T01:00:00+06:00",
+    "teamA_name": "Bosnia & Herzegovina",
+    "teamA_logo": "https://flagcdn.com/w80/ba.png",
+    "teamB_name": "Qatar",
+    "teamB_logo": "https://flagcdn.com/w80/qa.png"
+    "sources": [
+  {
+    "name": "BeIN Sports",
+    "streams": [
+      {
+        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 1",
+    "streams": [
+      {
+        "url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Toffee",
+    "streams": [
+      {
+        "url": "https://sm-monirul.top/tof/live/toffee4/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Win Sports",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TyC Sports 1080P",
+    "streams": [
+      {
+        "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c648a9fd43861cef74582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7f9b05816df6af4b0014ec37d47fa83439fd501e982d20d8311d320f91498c7f78cd44381e4ef598d6f77a02022405fbdc213b1c853b1d69b6d3c8f795a297437c790e335caa1e43d277debf6cac505b5739cc84d290146e935c8054de3dd4bd31b4d0fca325a8dff082b18b7cd5a2e03a8e4ab8bc1d752d769d6adf3d47f7098b94136178925f42b252d88a68b358ac70799bf27c5e5394678ebd805ba8da28fea878848b72cde88a1cb6a0c1d35444aad7596b7419769d171a3cb5306594e4fa2d315e78ecb513d6700d7d3079a4355e995dbc3f20139c36c1e1adb61df5a176583613f2bab7eafe85106ee0704812732f25c47e213acc24cffc583bde65a0b6f49f39934a8176b9f9d0e109b65ea7660398639/88/1920x1080_5162480/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 2K",
+    "streams": [
+      {
+        "url": "https://tv-trt1.medya.trt.com.tr/master_1440.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "DAZN",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Go Live",
+    "streams": [
+      {
+        "url": "https://soft-pond-09f1.lollenses0.workers.dev/https/d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8?ref=https%3A%2F%2Ffifatv.qzz.io%2F",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "BeIN Sports 5",
+    "streams": [
+      {
+        "url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "NexFlix Backup",
+    "streams": [
+      {
+        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Foorjia Live",
+    "streams": [
+      {
+        "url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/stream_t813af7b18a8dad5cffacb8aa8312239d_r1758813727.m3u8?llhlsHBs=0.9",
+        "referrer": ""
+      }
+    ]
+  }
+    ]
+  },
+  {
+    "id": "match-03",
+    "title": "Morocco vs Haiti",
+    "league": "FIFA WORLD CUP 2026",
+    "time": "2026-06-25T04:00:00+06:00",
+    "teamA_name": "Morocco",
+    "teamA_logo": "https://flagcdn.com/w80/ma.png",
+    "teamB_name": "Haiti",
+    "teamB_logo": "https://flagcdn.com/w80/ht.png"
+    "sources": [
+  {
+    "name": "BeIN Sports",
+    "streams": [
+      {
+        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 1",
+    "streams": [
+      {
+        "url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Toffee",
+    "streams": [
+      {
+        "url": "https://sm-monirul.top/tof/live/toffee4/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Win Sports",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TyC Sports 1080P",
+    "streams": [
+      {
+        "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c648a9fd43861cef74582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7f9b05816df6af4b0014ec37d47fa83439fd501e982d20d8311d320f91498c7f78cd44381e4ef598d6f77a02022405fbdc213b1c853b1d69b6d3c8f795a297437c790e335caa1e43d277debf6cac505b5739cc84d290146e935c8054de3dd4bd31b4d0fca325a8dff082b18b7cd5a2e03a8e4ab8bc1d752d769d6adf3d47f7098b94136178925f42b252d88a68b358ac70799bf27c5e5394678ebd805ba8da28fea878848b72cde88a1cb6a0c1d35444aad7596b7419769d171a3cb5306594e4fa2d315e78ecb513d6700d7d3079a4355e995dbc3f20139c36c1e1adb61df5a176583613f2bab7eafe85106ee0704812732f25c47e213acc24cffc583bde65a0b6f49f39934a8176b9f9d0e109b65ea7660398639/88/1920x1080_5162480/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 2K",
+    "streams": [
+      {
+        "url": "https://tv-trt1.medya.trt.com.tr/master_1440.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "DAZN",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Go Live",
+    "streams": [
+      {
+        "url": "https://soft-pond-09f1.lollenses0.workers.dev/https/d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8?ref=https%3A%2F%2Ffifatv.qzz.io%2F",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "BeIN Sports 5",
+    "streams": [
+      {
+        "url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "NexFlix Backup",
+    "streams": [
+      {
+        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Foorjia Live",
+    "streams": [
+      {
+        "url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/stream_t813af7b18a8dad5cffacb8aa8312239d_r1758813727.m3u8?llhlsHBs=0.9",
+        "referrer": ""
+      }
+    ]
+  }
+    ]
+  },
+  {
+    "id": "match-04",
+    "title": "Scotland vs Brazil",
+    "league": "FIFA WORLD CUP 2026",
+    "time": "2026-06-25T04:00:00+06:00",
+    "teamA_name": "Scotland",
+    "teamA_logo": "https://flagcdn.com/w80/gb-sct.png",
+    "teamB_name": "Brazil",
+    "teamB_logo": "https://flagcdn.com/w80/br.png"
+    "sources": [
+  {
+    "name": "BeIN Sports",
+    "streams": [
+      {
+        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 1",
+    "streams": [
+      {
+        "url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Toffee",
+    "streams": [
+      {
+        "url": "https://sm-monirul.top/tof/live/toffee4/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Win Sports",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TyC Sports 1080P",
+    "streams": [
+      {
+        "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c648a9fd43861cef74582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7f9b05816df6af4b0014ec37d47fa83439fd501e982d20d8311d320f91498c7f78cd44381e4ef598d6f77a02022405fbdc213b1c853b1d69b6d3c8f795a297437c790e335caa1e43d277debf6cac505b5739cc84d290146e935c8054de3dd4bd31b4d0fca325a8dff082b18b7cd5a2e03a8e4ab8bc1d752d769d6adf3d47f7098b94136178925f42b252d88a68b358ac70799bf27c5e5394678ebd805ba8da28fea878848b72cde88a1cb6a0c1d35444aad7596b7419769d171a3cb5306594e4fa2d315e78ecb513d6700d7d3079a4355e995dbc3f20139c36c1e1adb61df5a176583613f2bab7eafe85106ee0704812732f25c47e213acc24cffc583bde65a0b6f49f39934a8176b9f9d0e109b65ea7660398639/88/1920x1080_5162480/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 2K",
+    "streams": [
+      {
+        "url": "https://tv-trt1.medya.trt.com.tr/master_1440.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "DAZN",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Go Live",
+    "streams": [
+      {
+        "url": "https://soft-pond-09f1.lollenses0.workers.dev/https/d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8?ref=https%3A%2F%2Ffifatv.qzz.io%2F",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "BeIN Sports 5",
+    "streams": [
+      {
+        "url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "NexFlix Backup",
+    "streams": [
+      {
+        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Foorjia Live",
+    "streams": [
+      {
+        "url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/stream_t813af7b18a8dad5cffacb8aa8312239d_r1758813727.m3u8?llhlsHBs=0.9",
+        "referrer": ""
+      }
+    ]
+  }
+    ]
+  },
+  {
+    "id": "match-05",
+    "title": "South Africa vs South Korea",
+    "league": "FIFA WORLD CUP 2026",
+    "time": "2026-06-25T07:00:00+06:00",
+    "teamA_name": "South Africa",
+    "teamA_logo": "https://flagcdn.com/w80/za.png",
+    "teamB_name": "South Korea",
+    "teamB_logo": "https://flagcdn.com/w80/kr.png"
+    "sources": [
+  {
+    "name": "BeIN Sports",
+    "streams": [
+      {
+        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 1",
+    "streams": [
+      {
+        "url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Toffee",
+    "streams": [
+      {
+        "url": "https://sm-monirul.top/tof/live/toffee4/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Win Sports",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TyC Sports 1080P",
+    "streams": [
+      {
+        "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c648a9fd43861cef74582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7f9b05816df6af4b0014ec37d47fa83439fd501e982d20d8311d320f91498c7f78cd44381e4ef598d6f77a02022405fbdc213b1c853b1d69b6d3c8f795a297437c790e335caa1e43d277debf6cac505b5739cc84d290146e935c8054de3dd4bd31b4d0fca325a8dff082b18b7cd5a2e03a8e4ab8bc1d752d769d6adf3d47f7098b94136178925f42b252d88a68b358ac70799bf27c5e5394678ebd805ba8da28fea878848b72cde88a1cb6a0c1d35444aad7596b7419769d171a3cb5306594e4fa2d315e78ecb513d6700d7d3079a4355e995dbc3f20139c36c1e1adb61df5a176583613f2bab7eafe85106ee0704812732f25c47e213acc24cffc583bde65a0b6f49f39934a8176b9f9d0e109b65ea7660398639/88/1920x1080_5162480/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 2K",
+    "streams": [
+      {
+        "url": "https://tv-trt1.medya.trt.com.tr/master_1440.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "DAZN",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Go Live",
+    "streams": [
+      {
+        "url": "https://soft-pond-09f1.lollenses0.workers.dev/https/d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8?ref=https%3A%2F%2Ffifatv.qzz.io%2F",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "BeIN Sports 5",
+    "streams": [
+      {
+        "url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "NexFlix Backup",
+    "streams": [
+      {
+        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Foorjia Live",
+    "streams": [
+      {
+        "url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/stream_t813af7b18a8dad5cffacb8aa8312239d_r1758813727.m3u8?llhlsHBs=0.9",
+        "referrer": ""
+      }
+    ]
+  }
+    ]
+  },
+  {
+    "id": "match-06",
+    "title": "Czech Republic vs Mexico",
+    "league": "FIFA WORLD CUP 2026",
+    "time": "2026-06-25T07:00:00+06:00",
+    "teamA_name": "Czech Republic",
+    "teamA_logo": "https://flagcdn.com/w80/cz.png",
+    "teamB_name": "Mexico",
+    "teamB_logo": "https://flagcdn.com/w80/mx.png"
+    "sources": [
+  {
+    "name": "BeIN Sports",
+    "streams": [
+      {
+        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 1",
+    "streams": [
+      {
+        "url": "https://corestream.ronaldovurdu.help//trt1/tracks-v1a1/mono.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Toffee",
+    "streams": [
+      {
+        "url": "https://sm-monirul.top/tof/live/toffee4/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Win Sports",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TyC Sports 1080P",
+    "streams": [
+      {
+        "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c648a9fd43861cef74582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7f9b05816df6af4b0014ec37d47fa83439fd501e982d20d8311d320f91498c7f78cd44381e4ef598d6f77a02022405fbdc213b1c853b1d69b6d3c8f795a297437c790e335caa1e43d277debf6cac505b5739cc84d290146e935c8054de3dd4bd31b4d0fca325a8dff082b18b7cd5a2e03a8e4ab8bc1d752d769d6adf3d47f7098b94136178925f42b252d88a68b358ac70799bf27c5e5394678ebd805ba8da28fea878848b72cde88a1cb6a0c1d35444aad7596b7419769d171a3cb5306594e4fa2d315e78ecb513d6700d7d3079a4355e995dbc3f20139c36c1e1adb61df5a176583613f2bab7eafe85106ee0704812732f25c47e213acc24cffc583bde65a0b6f49f39934a8176b9f9d0e109b65ea7660398639/88/1920x1080_5162480/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "TRT 2K",
+    "streams": [
+      {
+        "url": "https://tv-trt1.medya.trt.com.tr/master_1440.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "DAZN",
+    "streams": [
+      {
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Go Live",
+    "streams": [
+      {
+        "url": "https://soft-pond-09f1.lollenses0.workers.dev/https/d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8?ref=https%3A%2F%2Ffifatv.qzz.io%2F",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "BeIN Sports 5",
+    "streams": [
+      {
+        "url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "NexFlix Backup",
+    "streams": [
+      {
+        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
+        "referrer": ""
+      }
+    ]
+  },
+  {
+    "name": "Foorjia Live",
+    "streams": [
+      {
+        "url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/stream_t813af7b18a8dad5cffacb8aa8312239d_r1758813727.m3u8?llhlsHBs=0.9",
+        "referrer": ""
+      }
+    ]
+  }
     ]
   }
 ]
