@@ -7556,6 +7556,32 @@
             "key": ""
           }
         ]
+      },
+        {
+        "id": "src_bioscope_01",
+        "name": "Bioscope",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+      },
+      {
+        "id": "src_fifaplus_01",
+        "name": "FIFA+ Eng",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://37b4c228.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/6f5437c5-e015-4754-8476-c8c6d27d3a55/1.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
       }
     ]
   }
