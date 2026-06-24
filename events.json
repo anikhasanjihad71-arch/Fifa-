@@ -7458,19 +7458,6 @@
         ]
       },
       {
-        "id": "src_1782223049867_ngqq0su25",
-        "name": "Fox 4K",
-        "isHidden": false,
-        "streams": [
-          {
-            "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8",
-            "referrer": "",
-            "kid": "",
-            "key": ""
-          }
-        ]
-      },
-      {
         "id": "src_1781813154258_wf5xtpx3f",
         "name": "Go Live",
         "isHidden": false,
@@ -7564,6 +7551,19 @@
         "streams": [
           {
             "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+      },
+      {
+        "id": "src_1782223049867_ngqq0su25",
+        "name": "Fox 4K",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8",
             "referrer": "",
             "kid": "",
             "key": ""
