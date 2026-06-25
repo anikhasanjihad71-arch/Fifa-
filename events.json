@@ -11331,6 +11331,25 @@
   "teamB_name": "Australia",
   "teamB_logo": "https://flagcdn.com/w160/au.png",
   "sources": [
+    {
+        "id": "src_1782329447477_ahosewbjm",
+        "name": "TSN",
+        "isHidden": false,
+        "streams": [
+          {
+            "url": "https://ataide0.mercadodavoz.com.br/tsn.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          },
+          {
+            "url": "https://ataide0.formaturamaxi.com.br/tsn.m3u8",
+            "referrer": "",
+            "kid": "",
+            "key": ""
+          }
+        ]
+    },
 {
 "id": "src_1781633113765_afatlnswr",
 "name": "BeIN Sports",
