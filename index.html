@@ -933,7 +933,7 @@
 
     async function checkAndShowPopup() {
       // এপিআই পয়েন্ট হোস্ট ডোমেনে পয়েন্ট করা হলো
-      const announcement = await safeFetchJSON('https://vuacast.xyz/announcement.json', { isActive: false });
+      const announcement = await safeFetchJSON('https://tv.rnexflix.top/announcement.json', { isActive: false });
       
       if (announcement.isActive) {
         const popupEl = document.getElementById('global-popup');
