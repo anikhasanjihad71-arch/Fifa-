@@ -15532,5 +15532,2026 @@
         ]
       }
     ]
+  },
+  {
+  "id": "match-01",
+  "title": "Colombia vs Portugal",
+  "league": "FIFA WORLD CUP 2026 - Group K",
+  "time": "2026-06-28T05:30:00+06:00",
+  "teamA_name": "Colombia",
+  "teamA_logo": "https://flagcdn.com/w80/co.png",
+  "teamB_name": "Portugal",
+  "teamB_logo": "https://flagcdn.com/w80/pt.png",
+  "sources": [  
+  {  
+    "id": "src_1782329447477_ahosewbjm",  
+    "name": "TSN",  
+    "isHidden": false,  
+    "streams": [  
+      {  
+        "url": "https://ataide0.formaturamaxi.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.elugohome.com/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.sman1asjap.my.id/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.mercadodavoz.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      }  
+    ]  
+  },  
+  {
+
+"id": "src_tsports_01",
+"name": "T Sports HD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://trs1.aynaott.com/tsports/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_75ec7t4xe",
+"name": "Telemundo",
+"streams": [
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.smalic.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.cloudhostar.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.thelistener.pk/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332426514_y3kd17w79",
+"name": "CCTV (Chinese)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_afatlnswr",
+"name": "BeIN Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_xlisnyna4",
+"name": "FOX",
+"streams": [
+{
+"url": "https://601.mercadodavoz.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://601.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332614081_jyujut6ql",
+"name": "beIN sports 2",
+"isHidden": false,
+"streams": [
+{
+"url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782222298005_4j30xjehb",
+"name": "2K/4K",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://rxne77juptdeyke3tytvgqwyh.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782042509585_dnamaexs0",
+"name": "BeIN Sports 5",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv.shajon.dev/api/iptv/proxy?url=http%3A%2F%2Fstarhub.pro%2Flive%2Ffarhat-3379%2F67897-913379%2F744527.ts",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+},
+{
+"url": "http://41.205.70.146/BEINSPORT5/index.m3u8",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_n1zs1rxk3",
+"name": "Win Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782405685968_q7onzh2l1",
+"name": "FOX FHD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://602.sman1asjap.my.id/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.formaturamaxi.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782060843988_zorw7apx9",
+"name": "NexFlix Backup",
+"isHidden": false,
+"streams": [
+{
+"url": "https://fawatv.online/live/F2E62CEFFF6C6F88C237BD9DF4957C35/667.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/video.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://az.usenmoo.online/test2_720/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://sportzfylive.com/stream/hd1-switzerland-x-canada-2026-06-24/manifest.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782230747037_xjch27zyz",
+"name": "DAZN",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781915022236_7lavmgwds",
+"name": "NexFlix Extra (1)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://yaciretv.live:8080/max22/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782407615112_5o1fjuh77",
+"name": "NexFlix Extra (2)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+            }
+        ]
+      }
+    ]
+  },
+  {
+  "id": "match-02",
+  "title": "DR Congo vs Uzbekistan",
+  "league": "FIFA WORLD CUP 2026 - Group K",
+  "time": "2026-06-28T05:30:00+06:00",
+  "teamA_name": "DR Congo",
+  "teamA_logo": "https://flagcdn.com/w80/cd.png",
+  "teamB_name": "Uzbekistan",
+  "teamB_logo": "https://flagcdn.com/w80/uz.png",
+  "sources": [  
+  {  
+    "id": "src_1782329447477_ahosewbjm",  
+    "name": "TSN",  
+    "isHidden": false,  
+    "streams": [  
+      {  
+        "url": "https://ataide0.formaturamaxi.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.elugohome.com/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.sman1asjap.my.id/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.mercadodavoz.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      }  
+    ]  
+  },  
+  {
+
+"id": "src_tsports_01",
+"name": "T Sports HD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://trs1.aynaott.com/tsports/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_75ec7t4xe",
+"name": "Telemundo",
+"streams": [
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.smalic.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.cloudhostar.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.thelistener.pk/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332426514_y3kd17w79",
+"name": "CCTV (Chinese)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_afatlnswr",
+"name": "BeIN Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_xlisnyna4",
+"name": "FOX",
+"streams": [
+{
+"url": "https://601.mercadodavoz.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://601.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332614081_jyujut6ql",
+"name": "beIN sports 2",
+"isHidden": false,
+"streams": [
+{
+"url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782222298005_4j30xjehb",
+"name": "2K/4K",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://rxne77juptdeyke3tytvgqwyh.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782042509585_dnamaexs0",
+"name": "BeIN Sports 5",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv.shajon.dev/api/iptv/proxy?url=http%3A%2F%2Fstarhub.pro%2Flive%2Ffarhat-3379%2F67897-913379%2F744527.ts",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+},
+{
+"url": "http://41.205.70.146/BEINSPORT5/index.m3u8",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_n1zs1rxk3",
+"name": "Win Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782405685968_q7onzh2l1",
+"name": "FOX FHD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://602.sman1asjap.my.id/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.formaturamaxi.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782060843988_zorw7apx9",
+"name": "NexFlix Backup",
+"isHidden": false,
+"streams": [
+{
+"url": "https://fawatv.online/live/F2E62CEFFF6C6F88C237BD9DF4957C35/667.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/video.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://az.usenmoo.online/test2_720/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://sportzfylive.com/stream/hd1-switzerland-x-canada-2026-06-24/manifest.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782230747037_xjch27zyz",
+"name": "DAZN",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781915022236_7lavmgwds",
+"name": "NexFlix Extra (1)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://yaciretv.live:8080/max22/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782407615112_5o1fjuh77",
+"name": "NexFlix Extra (2)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+  }  
+    ]  
+  }  
+]
+
+},
+  {
+  "id": "match-03",
+  "title": "Algeria vs Austria",
+  "league": "FIFA WORLD CUP 2026 - Group J",
+  "time": "2026-06-28T08:00:00+06:00",
+  "teamA_name": "Algeria",
+  "teamA_logo": "https://flagcdn.com/w80/dz.png",
+  "teamB_name": "Austria",
+  "teamB_logo": "https://flagcdn.com/w80/at.png",
+  "sources": [  
+  {  
+    "id": "src_1782329447477_ahosewbjm",  
+    "name": "TSN",  
+    "isHidden": false,  
+    "streams": [  
+      {  
+        "url": "https://ataide0.formaturamaxi.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.elugohome.com/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.sman1asjap.my.id/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.mercadodavoz.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      }  
+    ]  
+  },  
+  {
+
+"id": "src_tsports_01",
+"name": "T Sports HD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://trs1.aynaott.com/tsports/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_75ec7t4xe",
+"name": "Telemundo",
+"streams": [
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.smalic.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.cloudhostar.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.thelistener.pk/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332426514_y3kd17w79",
+"name": "CCTV (Chinese)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_afatlnswr",
+"name": "BeIN Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_xlisnyna4",
+"name": "FOX",
+"streams": [
+{
+"url": "https://601.mercadodavoz.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://601.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332614081_jyujut6ql",
+"name": "beIN sports 2",
+"isHidden": false,
+"streams": [
+{
+"url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782222298005_4j30xjehb",
+"name": "2K/4K",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://rxne77juptdeyke3tytvgqwyh.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782042509585_dnamaexs0",
+"name": "BeIN Sports 5",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv.shajon.dev/api/iptv/proxy?url=http%3A%2F%2Fstarhub.pro%2Flive%2Ffarhat-3379%2F67897-913379%2F744527.ts",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+},
+{
+"url": "http://41.205.70.146/BEINSPORT5/index.m3u8",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_n1zs1rxk3",
+"name": "Win Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782405685968_q7onzh2l1",
+"name": "FOX FHD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://602.sman1asjap.my.id/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.formaturamaxi.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782060843988_zorw7apx9",
+"name": "NexFlix Backup",
+"isHidden": false,
+"streams": [
+{
+"url": "https://fawatv.online/live/F2E62CEFFF6C6F88C237BD9DF4957C35/667.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/video.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://az.usenmoo.online/test2_720/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://sportzfylive.com/stream/hd1-switzerland-x-canada-2026-06-24/manifest.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782230747037_xjch27zyz",
+"name": "DAZN",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781915022236_7lavmgwds",
+"name": "NexFlix Extra (1)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://yaciretv.live:8080/max22/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782407615112_5o1fjuh77",
+"name": "NexFlix Extra (2)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+            }
+        ]
+      }
+    ]
+  },
+  {
+  "id": "match-04",
+  "title": "Jordan vs Argentina",
+  "league": "FIFA WORLD CUP 2026 - Group J",
+  "time": "2026-06-28T08:00:00+06:00",
+  "teamA_name": "Jordan",
+  "teamA_logo": "https://flagcdn.com/w80/jo.png",
+  "teamB_name": "Argentina",
+  "teamB_logo": "https://flagcdn.com/w80/ar.png",
+  "sources": [  
+  {  
+    "id": "src_1782329447477_ahosewbjm",  
+    "name": "TSN",  
+    "isHidden": false,  
+    "streams": [  
+      {  
+        "url": "https://ataide0.formaturamaxi.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.elugohome.com/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.sman1asjap.my.id/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.mercadodavoz.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      }  
+    ]  
+  },  
+  {
+
+"id": "src_tsports_01",
+"name": "T Sports HD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://trs1.aynaott.com/tsports/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_75ec7t4xe",
+"name": "Telemundo",
+"streams": [
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.smalic.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.cloudhostar.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.thelistener.pk/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332426514_y3kd17w79",
+"name": "CCTV (Chinese)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_afatlnswr",
+"name": "BeIN Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_xlisnyna4",
+"name": "FOX",
+"streams": [
+{
+"url": "https://601.mercadodavoz.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://601.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332614081_jyujut6ql",
+"name": "beIN sports 2",
+"isHidden": false,
+"streams": [
+{
+"url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782222298005_4j30xjehb",
+"name": "2K/4K",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://rxne77juptdeyke3tytvgqwyh.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782042509585_dnamaexs0",
+"name": "BeIN Sports 5",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv.shajon.dev/api/iptv/proxy?url=http%3A%2F%2Fstarhub.pro%2Flive%2Ffarhat-3379%2F67897-913379%2F744527.ts",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+},
+{
+"url": "http://41.205.70.146/BEINSPORT5/index.m3u8",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_n1zs1rxk3",
+"name": "Win Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782405685968_q7onzh2l1",
+"name": "FOX FHD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://602.sman1asjap.my.id/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.formaturamaxi.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782060843988_zorw7apx9",
+"name": "NexFlix Backup",
+"isHidden": false,
+"streams": [
+{
+"url": "https://fawatv.online/live/F2E62CEFFF6C6F88C237BD9DF4957C35/667.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/video.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://az.usenmoo.online/test2_720/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://sportzfylive.com/stream/hd1-switzerland-x-canada-2026-06-24/manifest.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782230747037_xjch27zyz",
+"name": "DAZN",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781915022236_7lavmgwds",
+"name": "NexFlix Extra (1)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://yaciretv.live:8080/max22/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782407615112_5o1fjuh77",
+"name": "NexFlix Extra (2)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+            }
+        ]
+      }
+    ]
+  },
+  {
+  "id": "match-05",
+  "title": "South Africa vs Canada",
+  "league": "FIFA WORLD CUP 2026 - Round of 32",
+  "time": "2026-06-28T23:00:00+06:00",
+  "teamA_name": "South Africa",
+  "teamA_logo": "https://flagcdn.com/w80/za.png",
+  "teamB_name": "Canada",
+  "teamB_logo": "https://flagcdn.com/w80/ca.png",
+  "sources": [  
+  {  
+    "id": "src_1782329447477_ahosewbjm",  
+    "name": "TSN",  
+    "isHidden": false,  
+    "streams": [  
+      {  
+        "url": "https://ataide0.formaturamaxi.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.elugohome.com/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.sman1asjap.my.id/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      },  
+      {  
+        "url": "https://ataide0.mercadodavoz.com.br/tsn.m3u8",  
+        "referrer": "",  
+        "kid": "",  
+        "key": ""  
+      }  
+    ]  
+  },  
+  {
+
+"id": "src_tsports_01",
+"name": "T Sports HD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://trs1.aynaott.com/tsports/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tvsen7.aynaott.com/tsportsfhd/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_75ec7t4xe",
+"name": "Telemundo",
+"streams": [
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.mercadodavoz.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.elugohome.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.formaturamaxi.com.br/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sman1asjap.my.id/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.smalic.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.cloudhostar.com/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.sandhost.dpdns.org/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://daffodil.thelistener.pk/tele.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332426514_y3kd17w79",
+"name": "CCTV (Chinese)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_afatlnswr",
+"name": "BeIN Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_xlisnyna4",
+"name": "FOX",
+"streams": [
+{
+"url": "https://601.mercadodavoz.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://601.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+],
+"isHidden": false
+},
+{
+"id": "src_1782332614081_jyujut6ql",
+"name": "beIN sports 2",
+"isHidden": false,
+"streams": [
+{
+"url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782222298005_4j30xjehb",
+"name": "2K/4K",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://rxne77juptdeyke3tytvgqwyh.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782042509585_dnamaexs0",
+"name": "BeIN Sports 5",
+"isHidden": false,
+"streams": [
+{
+"url": "https://ataide0.elugohome.com/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://tv.shajon.dev/api/iptv/proxy?url=http%3A%2F%2Fstarhub.pro%2Flive%2Ffarhat-3379%2F67897-913379%2F744527.ts",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+},
+{
+"url": "http://41.205.70.146/BEINSPORT5/index.m3u8",
+"referrer": "https://tv.shajon.dev/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781633113765_n1zs1rxk3",
+"name": "Win Sports",
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://ataide0.mercadodavoz.com.br/bein.m3u8",
+"referrer": "https://roxiestreams.info/",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782405685968_q7onzh2l1",
+"name": "FOX FHD",
+"isHidden": false,
+"streams": [
+{
+"url": "https://602.sman1asjap.my.id/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.formaturamaxi.com.br/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://602.elugohome.com/fox.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782060843988_zorw7apx9",
+"name": "NexFlix Backup",
+"isHidden": false,
+"streams": [
+{
+"url": "https://fawatv.online/live/F2E62CEFFF6C6F88C237BD9DF4957C35/667.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://customer-xnyp0i3qki5poety.cloudflarestream.com/a43fd284ab5508f8fc396c19d552c945/manifest/video.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://az.usenmoo.online/test2_720/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://sportzfylive.com/stream/hd1-switzerland-x-canada-2026-06-24/manifest.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782230747037_xjch27zyz",
+"name": "DAZN",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1781915022236_7lavmgwds",
+"name": "NexFlix Extra (1)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://yaciretv.live:8080/max22/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+},
+{
+"url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+}
+]
+},
+{
+"id": "src_1782407615112_5o1fjuh77",
+"name": "NexFlix Extra (2)",
+"isHidden": false,
+"streams": [
+{
+"url": "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8",
+"referrer": "",
+"kid": "",
+"key": ""
+            }
+        ]
+      }
+    ]
   }
 ]
